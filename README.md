@@ -33,7 +33,8 @@ This repository uses dedicated branches for each content type.
 
 ## Quick Links — Unit 1
 
-- Notes (Markdown): [`notes` branch → `unit-01/`](https://github.com/professorbhakta/computerInfo/tree/notes/unit-01)
+- Notes (Markdown / DOCX / TXT): [`notes` branch → `unit-01/`](https://github.com/professorbhakta/computerInfo/tree/notes/unit-01)
+- Easy review TXT: [`unit-01-introduction-to-basic-computing.txt`](https://github.com/professorbhakta/computerInfo/blob/notes/unit-01/unit-01-introduction-to-basic-computing.txt)
 - Q&A Bank: [`materials` → `qa/unit-01-qa-bank.md`](https://github.com/professorbhakta/computerInfo/blob/materials/qa/unit-01-qa-bank.md)
 - Assignments: [`materials` → `assignments/unit-01-assignments.md`](https://github.com/professorbhakta/computerInfo/blob/materials/assignments/unit-01-assignments.md)
 - Syllabus: [`materials` → `syllabus/`](https://github.com/professorbhakta/computerInfo/tree/materials/syllabus)

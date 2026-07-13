@@ -19,7 +19,7 @@ This repository uses dedicated branches for each content type.
 | Unit | Notes | Slides | Q&A / Assignments |
 |---|---|---|---|
 | Unit 1 — Introduction to Basic Computing | Available on `notes` | Available on `slides` | Available on `materials` |
-| Unit 2 — MS Word for Legal Documentation | Not started | Not started | Not started |
+| Unit 2 — MS Word for Legal Documentation | Available on `notes` | Pending notes review | Available on `materials` |
 | Unit 3 — MS Excel for Legal Data Management | Not started | Not started | Not started |
 | Unit 4 — MS PowerPoint | Not started | Not started | Not started |
 | Unit 5 — AI and Ethical Use of AI | Not started | Not started | Not started |
@@ -39,3 +39,11 @@ This repository uses dedicated branches for each content type.
 - Assignments: [`materials` → `assignments/unit-01-assignments.md`](https://github.com/professorbhakta/computerInfo/blob/materials/assignments/unit-01-assignments.md)
 - Syllabus: [`materials` → `syllabus/`](https://github.com/professorbhakta/computerInfo/tree/materials/syllabus)
 - PPT: [`slides` → Unit-1 PPTX](https://github.com/professorbhakta/computerInfo/blob/slides/unit-01/unit-01-introduction-to-basic-computing.pptx)
+
+## Quick Links — Unit 2
+
+- Notes (Markdown / DOCX / TXT): [`notes` → `unit-02/`](https://github.com/professorbhakta/computerInfo/tree/notes/unit-02)
+- Easy review TXT: [`unit-02-ms-word-legal-documentation.txt`](https://github.com/professorbhakta/computerInfo/blob/notes/unit-02/unit-02-ms-word-legal-documentation.txt)
+- Q&A Bank: [`materials` → `qa/unit-02-qa-bank.md`](https://github.com/professorbhakta/computerInfo/blob/materials/qa/unit-02-qa-bank.md)
+- Assignments: [`materials` → `assignments/unit-02-assignments.md`](https://github.com/professorbhakta/computerInfo/blob/materials/assignments/unit-02-assignments.md)
+

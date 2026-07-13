@@ -15,3 +15,13 @@ Detailed unit notes (Markdown + DOCX).
 Includes learning objectives, law-office examples, exam traps, definitions, short/long questions, MCQs, model answers, and extended revision material.
 
 Related practice sheets: [`materials` branch](https://github.com/professorbhakta/computerInfo/tree/materials)
+
+## Unit 2 — MS Word for Legal Documentation
+
+| File | Format |
+|---|---|
+| [`unit-02/unit-02-ms-word-legal-documentation.md`](unit-02/unit-02-ms-word-legal-documentation.md) | Markdown |
+| [`unit-02/unit-02-ms-word-legal-documentation.docx`](unit-02/unit-02-ms-word-legal-documentation.docx) | Word |
+| [`unit-02/unit-02-ms-word-legal-documentation.txt`](unit-02/unit-02-ms-word-legal-documentation.txt) | Plain text (easy review) |
+
+Related practice sheets: [`materials` branch](https://github.com/professorbhakta/computerInfo/tree/materials)

@@ -9,5 +9,7 @@ This branch stores supporting course materials:
 | `syllabus/Subject_Syllabus_Computer_Info.docx` | Official subject syllabus |
 | `qa/unit-01-qa-bank.md` | Unit-1 short/long questions + MCQs |
 | `assignments/unit-01-assignments.md` | Unit-1 CIA / practice assignments |
+| `qa/unit-02-qa-bank.md` | Unit-2 short/long questions + MCQs |
+| `assignments/unit-02-assignments.md` | Unit-2 CIA / practical assignments |
 
 Teaching notes live on the **`notes`** branch. Presentations live on the **`slides`** branch.

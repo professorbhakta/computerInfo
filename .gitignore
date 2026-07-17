@@ -1,4 +1,60 @@
+# Python
 .venv/
+venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS / editor
 .DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Generated / temporary artifacts (keep source JSON; ignore local build junk)
+*.tmp
+*.temp
+*.log
+.cache/
+tmp/
+temp/
+
+# PPTX build leftovers
+~$*
+*.pptx.bak
+*.pptx.tmp
+
+# Subject working copies (optional local overrides)
+subjects/**/.local/
+subjects/**/drafts/
+
+# Coverage / test
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

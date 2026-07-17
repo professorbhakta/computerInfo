@@ -1,49 +1,90 @@
-# computerInfo
+# Academic Content Factory
 
-Course materials for **Computer Information** (BA-LLB)  
-**Parul University** · **Prof. Shivam Bhakta**
+A **subject-agnostic**, multi-agent system for producing high-quality teaching materials from any academic subject and scope.
 
-This repository uses dedicated branches for each content type.
+Give it a subject + scope → get a structured outline, student notes, a real PowerPoint deck, and supplementary materials—with consistency checks, versioning, and Git integration.
 
-## Branch Map
+## What it produces
 
-| Branch | What it stores | Open on GitHub |
-|---|---|---|
-| [`main`](https://github.com/professorbhakta/computerInfo/tree/main) | Index / links only (this file) | You are here |
-| [`notes`](https://github.com/professorbhakta/computerInfo/tree/notes) | Detailed unit notes (Markdown + DOCX) | [Open notes](https://github.com/professorbhakta/computerInfo/tree/notes) |
-| [`slides`](https://github.com/professorbhakta/computerInfo/tree/slides) | Unit PPT/PPTX presentations | [Open slides](https://github.com/professorbhakta/computerInfo/tree/slides) |
-| [`materials`](https://github.com/professorbhakta/computerInfo/tree/materials) | Syllabus, Q&A banks, assignments | [Open materials](https://github.com/professorbhakta/computerInfo/tree/materials) |
+| Output | Description |
+|---|---|
+| Teaching outline | Sequenced topics + **Bloom’s Taxonomy** learning objectives |
+| Student notes | Study-ready Markdown aligned to the outline |
+| Slide deck | `slides.json` source + generated `.pptx` |
+| Materials pack | Assignments, tiered question bank, lab/workshop exercises |
+| Optional | Quizzes, glossary, mind map |
+| QA report | Consistency verdict before release |
 
-## Current Progress
+## Agents
 
-| Unit | Notes | Slides | Q&A / Assignments |
-|---|---|---|---|
-| Unit 1 — Introduction to Basic Computing | Available on `notes` | Available on `slides` | Available on `materials` |
-| Unit 2 — MS Word for Legal Documentation | Available on `notes` | Pending notes review | Available on `materials` |
-| Unit 3 — MS Excel for Legal Data Management | Not started | Not started | Not started |
-| Unit 4 — MS PowerPoint | Not started | Not started | Not started |
-| Unit 5 — AI and Ethical Use of AI | Not started | Not started | Not started |
+Defined in `.cursor/agents/`:
 
-## How We Work
+| Agent | Responsibility |
+|---|---|
+| **Main Orchestrator** | Entry point: planning, gates, retries, versioning, Git |
+| **Curriculum Architect** | Outline + Bloom objectives |
+| **Notes Writer** | Student notes |
+| **PPT Builder** | Slide JSON + PPTX build |
+| **Material Generator** | Assignments, questions, labs, optionals |
+| **QA Reviewer** | Cross-artifact consistency |
 
-1. Prepare **detailed notes** for a unit (`notes` branch).  
-2. Review and approve notes.  
-3. Build an **attractive PPT** from those notes (`slides` branch).  
-4. Keep **syllabus / Q&A / assignments** on `materials`.
+See [AGENTS.md](./AGENTS.md) for the pipeline and contracts.
 
-## Quick Links — Unit 1
+## Repository layout
 
-- Notes (Markdown / DOCX / TXT): [`notes` branch → `unit-01/`](https://github.com/professorbhakta/computerInfo/tree/notes/unit-01)
-- Easy review TXT: [`unit-01-introduction-to-basic-computing.txt`](https://github.com/professorbhakta/computerInfo/blob/notes/unit-01/unit-01-introduction-to-basic-computing.txt)
-- Q&A Bank: [`materials` → `qa/unit-01-qa-bank.md`](https://github.com/professorbhakta/computerInfo/blob/materials/qa/unit-01-qa-bank.md)
-- Assignments: [`materials` → `assignments/unit-01-assignments.md`](https://github.com/professorbhakta/computerInfo/blob/materials/assignments/unit-01-assignments.md)
-- Syllabus: [`materials` → `syllabus/`](https://github.com/professorbhakta/computerInfo/tree/materials/syllabus)
-- PPT: [`slides` → Unit-1 PPTX](https://github.com/professorbhakta/computerInfo/blob/slides/unit-01/unit-01-introduction-to-basic-computing.pptx)
+```
+.
+├── AGENTS.md
+├── PROJECT_TODOS.md
+├── README.md
+├── .gitignore
+├── .cursor/agents/          # Specialist agent prompts
+├── scripts/build_pptx.py    # JSON → PPTX builder (themes + recovery)
+└── subjects/
+    └── _template/           # Copy this layout for new subjects
+```
 
-## Quick Links — Unit 2
+## Quick start
 
-- Notes (Markdown / DOCX / TXT): [`notes` → `unit-02/`](https://github.com/professorbhakta/computerInfo/tree/notes/unit-02)
-- Easy review TXT: [`unit-02-ms-word-legal-documentation.txt`](https://github.com/professorbhakta/computerInfo/blob/notes/unit-02/unit-02-ms-word-legal-documentation.txt)
-- Q&A Bank: [`materials` → `qa/unit-02-qa-bank.md`](https://github.com/professorbhakta/computerInfo/blob/materials/qa/unit-02-qa-bank.md)
-- Assignments: [`materials` → `assignments/unit-02-assignments.md`](https://github.com/professorbhakta/computerInfo/blob/materials/assignments/unit-02-assignments.md)
+1. Open this repo in Cursor.
+2. Invoke the **Main Orchestrator** with a request such as:
 
+   > Subject: Intro to Microeconomics. Audience: first-year undergrad. Scope: 4-hour unit on supply & demand. Include glossary.
+
+3. The orchestrator will create `subjects/<slug>/vN/`, run the agent pipeline, build PPTX, run QA, and commit/push per the Git workflow.
+
+### Build a PPTX manually
+
+```bash
+pip install python-pptx
+python scripts/build_pptx.py \
+  --input subjects/<slug>/vN/slides.json \
+  --output subjects/<slug>/vN/slides.pptx \
+  --theme academic-light \
+  --recover
+```
+
+Themes: `academic-light`, `academic-dark`, `minimal-mono`, `campus-blue`.
+
+## Versioning
+
+- Each release lives in `subjects/<slug>/vN/`.
+- Content changes create `vN+1` (released versions are not overwritten).
+- `subjects/<slug>/CURRENT` points at the active version.
+- `manifest.json` tracks status: `draft` → `qa` → `released`.
+
+## Operations checklist
+
+Use [PROJECT_TODOS.md](./PROJECT_TODOS.md) for every production run.
+
+## Design principles
+
+- Completely **subject-agnostic** (law, STEM, humanities, business, …)
+- Bloom-tagged objectives end-to-end
+- Automatic consistency checking before release
+- Robust PPTX generation with validation and recovery
+- Full Git workflow owned by the Main Orchestrator
+
+## License / use
+
+Teaching materials generated into `subjects/` belong to the course authors who run the factory. The factory scaffolding in this repository is reusable across courses and institutions.

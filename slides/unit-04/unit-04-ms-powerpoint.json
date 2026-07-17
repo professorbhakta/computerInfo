@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Unit 4 — MS PowerPoint",
+    "subtitle": "Computer Information · Law students",
+    "author": "Academic Content Factory",
+    "subject_slug": "computer-info",
+    "version": "v1.0",
+    "theme": "campus-blue",
+    "language": "en"
+  },
+  "slides": [
+    {
+      "id": "u00",
+      "layout": "title",
+      "title": "Unit 4",
+      "subtitle": "MS PowerPoint",
+      "notes": "Teach Unit 4 as a modular block (6 hours)."
+    },
+    {
+      "id": "u01",
+      "layout": "section",
+      "title": "Unit 4 — MS PowerPoint for Legal Presentations",
+      "notes": "Six hours, 10% weight. Advocate clarity over decoration. One idea per slide. Speaker notes support moot delivery."
+    },
+    {
+      "id": "u02",
+      "layout": "bullets",
+      "title": "PowerPoint in Legal and Academic Context",
+      "bullets": [
+        "Communicate case facts, arguments, and awareness topics",
+        "Used in moot courts, seminars, and client meetings",
+        "Slides support oral advocacy — you are the presenter",
+        "Poor slides distract judges and examiners",
+        "Lab: moot court deck and legal awareness animation",
+        "8–12 slides is a typical student presentation length"
+      ],
+      "notes": "Set design philosophy early: slides are visual aids, not scripts. Moot and seminar contexts have different pacing needs."
+    },
+    {
+      "id": "u03",
+      "layout": "bullets",
+      "title": "Slide Design Principles",
+      "bullets": [
+        "One main idea per slide — avoid walls of text",
+        "Large readable fonts; high contrast background",
+        "Limit bullets to five or six per slide",
+        "Use images, diagrams, or quotes — not paragraphs",
+        "Consistent alignment and spacing throughout",
+        "Speaker notes hold detail; slides stay minimal"
+      ],
+      "notes": "Show a bad dense slide versus a clean one. Contrast and font size matter in courtrooms with projectors."
+    },
+    {
+      "id": "u04",
+      "layout": "bullets",
+      "title": "Themes and Templates",
+      "bullets": [
+        "Themes apply coordinated colors, fonts, and effects",
+        "Templates provide pre-built slide layouts",
+        "Choose professional themes — avoid distracting backgrounds",
+        "Slide Master edits fonts and placeholders globally",
+        "Match theme to context: formal moot vs awareness campaign",
+        "campus-blue and academic themes suit law presentations"
+      ],
+      "notes": "Demo applying a theme and editing Slide Master for consistent footers. Formal moot decks need restrained visual design."
+    },
+    {
+      "id": "u05",
+      "layout": "two_column",
+      "title": "Animations vs Transitions",
+      "left": {
+        "heading": "Transitions",
+        "bullets": [
+          "Effect when moving between entire slides",
+          "Examples: Fade, Push, Wipe",
+          "Use subtle transitions — one style for whole deck",
+          "Overuse distracts judges and examiners"
+        ]
+      },
+      "right": {
+        "heading": "Animations",
+        "bullets": [
+          "Effects on objects within a single slide",
+          "Reveal bullet points or diagram steps sequentially",
+          "Build complex arguments step by step",
+          "Purpose: direct attention, not entertainment"
+        ]
+      },
+      "notes": "Exam distinction: transitions = between slides; animations = within a slide. Both should be purposeful and minimal."
+    },
+    {
+      "id": "u06",
+      "layout": "bullets",
+      "title": "SmartArt and Charts in Slides",
+      "bullets": [
+        "SmartArt visualizes processes, hierarchies, and cycles",
+        "Use for legal procedures or organizational structures",
+        "Insert Chart links to Excel data for live updates",
+        "Prefer SmartArt over bullet walls for relationships",
+        "Keep diagrams simple — label every element clearly",
+        "Test readability from the back of the room"
+      ],
+      "notes": "When to use SmartArt vs bullets is a common exam point. Show a simple litigation process or court hierarchy diagram."
+    },
+    {
+      "id": "u07",
+      "layout": "bullets",
+      "title": "Legal Case Presentations",
+      "bullets": [
+        "Open with caption: parties, court, statute involved",
+        "Facts slide — chronological, neutral tone",
+        "Issues framed as precise legal questions",
+        "Arguments split: petitioner vs respondent points",
+        "Relief or prayer stated clearly on dedicated slide",
+        "Annexures referenced; do not crowd slides with citations"
+      ],
+      "notes": "Case presentation structure mirrors written pleadings. Slides summarize; oral argument adds authority and analysis."
+    },
+    {
+      "id": "u08",
+      "layout": "bullets",
+      "title": "Moot Court Presentation Structure",
+      "bullets": [
+        "Facts → Issues → Arguments → Prayer — classic flow",
+        "Allocate time: facts brief, arguments longest",
+        "Anticipate judge interruptions — backup slides optional",
+        "Speaker notes contain citations and case names",
+        "Closing slide: precise relief sought",
+        "Rehearse with timer; cut excess animation"
+      ],
+      "notes": "Moot deck is a lab deliverable. Emphasize speaker notes for citations while slides stay clean. Facts–issues–arguments–prayer is exam-ready structure."
+    },
+    {
+      "id": "u09",
+      "layout": "bullets",
+      "title": "Seminar and Legal Awareness Decks",
+      "bullets": [
+        "Hook slide: striking question or statistic",
+        "Define key legal terms for general audience",
+        "Use examples and scenarios — not jargon alone",
+        "One awareness message per section",
+        "Call to action: rights, remedies, or helplines",
+        "Credits slide: sources and team members"
+      ],
+      "notes": "Seminar decks educate non-lawyers. Contrast with moot formality. Legal awareness lab may use light animation for emphasis."
+    },
+    {
+      "id": "u10",
+      "layout": "bullets",
+      "title": "Unit 4 — Exam Tips",
+      "bullets": [
+        "State design principles: one idea, contrast, readability",
+        "Distinguish animation (within slide) vs transition (between)",
+        "When to use SmartArt instead of bullet lists",
+        "Outline moot deck structure: facts–issues–arguments–prayer",
+        "Pitfall: wall-of-text slides and excessive effects",
+        "Pitfall: unreadable color combinations"
+      ],
+      "notes": "Design principles and moot structure are high-yield. Review a sample deck critically before the practical exam."
+    },
+    {
+      "id": "u11",
+      "layout": "closing",
+      "title": "Unit 4 — Next steps",
+      "bullets": [
+        "Complete unit labs",
+        "Attempt unit Q&A bank",
+        "Submit unit assignment",
+        "Revise using revision sheet"
+      ],
+      "notes": "Point students to materials/labs and materials/qa for this unit."
+    }
+  ]
+}

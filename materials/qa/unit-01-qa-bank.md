@@ -1,133 +1,103 @@
-# Computer Information — Unit 1 Practice Pack
+# Unit 1 — Question Bank: Introduction to Basic Computing
 
-**Parul University** · BA-LLB · **Prof. Shivam Bhakta**  
-Companion to Unit-1 notes on the `notes` branch.
-
----
-
-## 1. Short Answer Bank (Practice)
-
-Write answers in your own words. Suggested time: 45–60 minutes.
-
-1. Define computer. List any four characteristics with legal workplace examples.
-2. Differentiate data and information using a court-fee / client-billing example.
-3. Draw the IPO cycle and explain each stage.
-4. Explain CPU and name ALU, CU, and registers in one paragraph.
-5. Distinguish RAM and ROM.
-6. Define Operating System. State four functions.
-7. Differentiate system software and application software with two examples each.
-8. Define Internet. Differentiate Internet and WWW.
-9. Expand: URL, ISP, IP, DNS.
-10. Write a short note on professional email etiquette for law interns.
-11. Define Artificial Intelligence. Explain Narrow AI.
-12. List five applications of AI in the legal profession.
-13. What is AI hallucination? Give one legal risk example.
-14. Explain OCR and why chambers need it.
-15. Write four rules for responsible AI use by BA-LLB students.
+**Course:** Computer Information | **Objectives:** [1, 2, 9]  
+**Formats:** Easy / Medium / Hard with Bloom tags  
+**Also see:** `full-course-qa-bank.md` for the combined bank.
 
 ---
 
-## 2. Long Answer Bank
+### E1
+**[Easy] [Remember] [Obj 1]** Define a computer in one sentence suitable for a legal practice context.
 
-1. Explain components of a computer system with diagram and law-office examples.
-2. Discuss Operating Systems and file/security habits needed in legal practice.
-3. Explain Internet basics and responsible online legal research.
-4. Discuss digital communication tools, etiquette, and evidentiary caution.
-5. Trace a brief history of AI and its relevance to legal education today.
-6. Discuss applications, limitations, and future scope of AI in law.
-7. Critically examine: “AI will assist lawyers, not replace them.”
+**Answer:** A computer is an electronic device that accepts data as input, processes it according to programmed instructions, and produces information as output for tasks such as drafting, research, and record-keeping.
 
 ---
 
-## 3. MCQ Set A (CIA Style)
+---
 
-1. Which device is primarily used for digitising signed vakalatnama papers?  
-   a) Speaker  b) Scanner  c) Projector  d) GPU  
+### E2
+**[Easy] [Remember] [Obj 1]** Name the four functional units of a computer system in the IPO model.
 
-2. Which memory loses content when power is switched off?  
-   a) ROM  b) SSD  c) RAM  d) HDD  
-
-3. MS Word is an example of:  
-   a) OS  b) Application software  c) Firmware  d) Hardware  
-
-4. The manager between user and hardware is called:  
-   a) Browser  b) Compiler  c) Operating System  d) Search engine  
-
-5. WWW is:  
-   a) Same as Internet  b) A service on the Internet  c) An OS  d) A CPU part  
-
-6. Which is synchronous communication?  
-   a) Email  b) Video conference hearing  c) Letter by post  d) Draft saved offline  
-
-7. Dartmouth Conference is associated with:  
-   a) Invention of email  b) Birth of AI as a field (1956)  c) First smartphone  d) MS Excel  
-
-8. A major danger of generative AI for petitions is:  
-   a) Faster printing  b) Fake/hallucinated citations  c) Better margins  d) Cloud storage  
-
-9. OCR helps to:  
-   a) Animate slides  b) Convert image-text to editable text  c) Cool the CPU  d) Encrypt email  
-
-10. Best professional file name:  
-    a) `new.docx`  b) `finalfinal.docx`  c) `2024-07-13_Notice_Patel_Draft-v2.docx`  d) `doc.docx`
-
-**Answer Key (Set A):** 1-b, 2-c, 3-b, 4-c, 5-b, 6-b, 7-b, 8-b, 9-b, 10-c
+**Answer:** Input, Process, Output, and Storage.
 
 ---
 
-## 4. MCQ Set B (Challenge)
+---
 
-1. ALU stands for:  
-   a) Advanced Logic Utility  b) Arithmetic Logic Unit  c) Automated Legal Unit  d) Application Layer Utility  
+### E3
+**[Easy] [Remember] [Obj 1]** What is the primary function of an operating system?
 
-2. Which statement is correct?  
-   a) Internet and WWW are identical  b) WWW is broader than Internet  
-   c) Internet is broader infrastructure; WWW is one service  d) WWW is an OS  
-
-3. Which is system software?  
-   a) PowerPoint  b) Chrome  c) Windows  d) Manupatra website  
-
-4. Narrow AI is:  
-   a) Human-level general intelligence  b) Task-specific AI  c) Superintelligence  d) Non-digital intelligence  
-
-5. Leaving a confidential draft unlocked on a shared PC mainly violates:  
-   a) Only fashion sense  b) Professional confidentiality / security hygiene  
-   c) Printer settings  d) CPU speed rules  
-
-6. HTTPS is preferred because it generally indicates:  
-   a) Faster downloads always  b) More secure transport for sensitive sessions  
-   c) Free printing  d) Offline mode  
-
-7. Which is NOT a typical AI legal use?  
-   a) Document review aid  b) Judgment summarisation aid  
-   c) Replacing advocate’s ethical responsibility  d) Research assistance  
-
-8. Deep Blue (1997) is remembered for:  
-   a) Inventing WWW  b) Beating a chess champion  c) Creating MS Word  d) Starting email  
-
-9. A junior pastes a full client agreement into a public chatbot. Main issue?  
-   a) Font size  b) Confidentiality / data exposure risk  c) Slide theme  d) Printer jam  
-
-10. IPO cycle means:  
-    a) Internet Protocol Output  b) Input–Process–Output  c) Internal Petition Order  d) Intelligent Program Object
-
-**Answer Key (Set B):** 1-b, 2-c, 3-c, 4-b, 5-b, 6-b, 7-c, 8-b, 9-b, 10-b
+**Answer:** An operating system manages hardware resources, provides a user interface, and runs application software (e.g., Word, browser) on behalf of the user.
 
 ---
 
-## 5. Viva / Oral Rapid Fire
+---
 
-1. What is hardware?  
-2. What is software?  
-3. One example of input device in court registry.  
-4. One example of output device in moot court.  
-5. Why is PDF popular for final sharing?  
-6. Name two mobile OS.  
-7. What does GUI mean?  
-8. Define protocol in one line.  
-9. What is generative AI?  
-10. Give one future role created by legal-tech.
+### E4
+**[Easy] [Understand] [Obj 1]** Distinguish between hardware and software with one example of each used in a law office.
+
+**Answer:** Hardware is physical equipment (e.g., printer, scanner); software is programs/instructions (e.g., MS Word, case-management application).
 
 ---
 
-*End of Unit-1 Q&A pack. Use with notes from the `notes` branch.*
+---
+
+### E5
+**[Easy] [Remember] [Obj 2]** What does "AI" stand for, and give one legal application.
+
+**Answer:** Artificial Intelligence. Example application: automated legal research, document summarization, or predictive case analytics.
+
+---
+
+---
+
+### E12
+**[Easy] [Understand] [Obj 1]** What is digital communication? Give two examples relevant to legal practice.
+
+**Answer:** Exchange of information through electronic channels. Examples: professional email, video conferencing for client meetings, secure messaging within a firm.
+
+---
+
+## Section B — Medium [Medium]
+
+---
+
+### M1
+**[Medium] [Understand] [Obj 1]** Explain the roles of input, process, output, and storage when a law student searches a judgment database and saves a PDF.
+
+**Answer:** Input: keyboard/mouse queries and clicks. Process: OS and browser run the search; server retrieves results. Output: results displayed on screen; PDF rendered. Storage: judgment saved to disk/cloud; browser cache may temporarily hold data.
+
+---
+
+---
+
+### M8
+**[Medium] [Understand] [Obj 2]** Briefly compare rule-based AI and machine-learning AI with one legal example each.
+
+**Answer:** Rule-based systems follow explicit if-then logic (e.g., tax calculator from fixed rules). Machine-learning systems learn patterns from data (e.g., predicting case outcomes from historical judgments). Both may appear in legal tech with different transparency implications.
+
+---
+
+---
+
+### M12
+**[Medium] [Apply] [Obj 9]** List four file-management practices for secure legal work on a shared lab computer.
+
+**Answer:** Log out after use; save to designated user folder not desktop; use meaningful file names (client matter + doc type + date); avoid leaving confidential PDFs in downloads; back up to approved cloud/USB per institutional policy.
+
+---
+
+## Section C — Hard [Hard]
+
+---
+### U1-M1
+**[Medium] [Apply] [Obj 1]** Propose a folder path and file name for a downloaded judgment used in a research memo for client “R. Shah”, year 2026.
+
+**Answer (sample):** `Clients/R_Shah/Research/Judgments/2026/` and `2026-03-12_SupremeCourt_RelevantIssue_v1.pdf` (clear date, forum/topic, version).
+
+---
+
+### U1-H1
+**[Hard] [Evaluate] [Obj 2]** A classmate says “AI search replaces reading judgments.” Write a short rebuttal suitable for a class discussion (4–6 sentences).
+
+**Answer:** AI can help locate or summarize materials but can miss context, hallucinate citations, and omit jurisdictional nuance. Professional competence requires verifying primary sources. AI is an assistant under human responsibility, not a substitute for legal reading.

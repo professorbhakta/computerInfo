@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "title": "Unit 1 — Introduction to Basic Computing",
+    "subtitle": "Computer Information · Law students",
+    "author": "Academic Content Factory",
+    "subject_slug": "computer-info",
+    "version": "v1.0",
+    "theme": "campus-blue",
+    "language": "en"
+  },
+  "slides": [
+    {
+      "id": "u00",
+      "layout": "title",
+      "title": "Unit 1",
+      "subtitle": "Introduction to Basic Computing",
+      "notes": "Teach Unit 1 as a modular block (6 hours)."
+    },
+    {
+      "id": "u01",
+      "layout": "section",
+      "title": "Unit 1 — Introduction to Basic Computing",
+      "notes": "Six teaching hours, 10% weight. Emphasize legal workflows: research, secure files, professional email. AI is introduced at survey level; ethics deepens in Unit 5."
+    },
+    {
+      "id": "u02",
+      "layout": "bullets",
+      "title": "What Is a Computer?",
+      "bullets": [
+        "Electronic device that processes data into information",
+        "Follows instructions (programs) stored in software",
+        "Transforms raw facts into usable legal information",
+        "Used daily for drafting, research, and communication",
+        "Combines hardware, software, and human operators",
+        "Foundation for all other units in this course"
+      ],
+      "notes": "Define computer clearly for short-answer exams. Stress the data-to-information transformation—lawyers work with facts, dates, parties, and citations as data."
+    },
+    {
+      "id": "u03",
+      "layout": "two_column",
+      "title": "Computer System Components",
+      "left": {
+        "heading": "Hardware",
+        "bullets": [
+          "CPU and RAM — run Word, Excel, browsers",
+          "Storage — SSD, cloud, USB for case files",
+          "Input — keyboard, scanner for petitions",
+          "Output — monitor, printer for filings"
+        ]
+      },
+      "right": {
+        "heading": "Software & People",
+        "bullets": [
+          "System software — operating system (OS)",
+          "Application software — Word, Excel, research tools",
+          "Peopleware — users following professional discipline",
+          "IPO cycle: Input → Process → Output → Storage"
+        ]
+      },
+      "notes": "Use the IPO model. Hardware is physical; software is instructions. Do not treat Office apps as the only software—the OS and browser matter too."
+    },
+    {
+      "id": "u04",
+      "layout": "bullets",
+      "title": "Operating Systems — Core Functions",
+      "bullets": [
+        "System software managing hardware and resources",
+        "Boots the machine and runs application programs",
+        "Organizes files, folders, users, and permissions",
+        "Examples: Windows, macOS, Linux",
+        "Provides security accounts and device drivers",
+        "Platform for all legal applications you will use"
+      ],
+      "notes": "OS is high-yield for exams. Two functions to memorize: resource management and providing a platform for applications. Tie to folder discipline for client matters."
+    },
+    {
+      "id": "u05",
+      "layout": "bullets",
+      "title": "OS Skills for Legal Practice",
+      "bullets": [
+        "Folder structure: Client / Case / Year hierarchy",
+        "Clear file naming: year, parties, doc type, version",
+        "Backups before court deadlines and submissions",
+        "Respect permissions on shared chambers drives",
+        "Separate drafts from final filed PDFs",
+        "Never store sole copies on unencrypted USB sticks"
+      ],
+      "notes": "Demonstrate a sample path like Research/Judgments/2026/. Professional reliability starts with OS-level file discipline, not just Word formatting."
+    },
+    {
+      "id": "u06",
+      "layout": "bullets",
+      "title": "Internet Basics for Lawyers",
+      "bullets": [
+        "Global network linking computers and services worldwide",
+        "Browser accesses websites and authenticated databases",
+        "Search engines find open web; databases hold primary law",
+        "Cloud services store and sync documents remotely",
+        "HTTPS and logins protect access to paid research tools",
+        "Download, rename, and log sources in research folders"
+      ],
+      "notes": "Walk through a judgment-download workflow: OS file manager → browser → database → save PDF with clear name. Distinguish open web from subscription legal databases."
+    },
+    {
+      "id": "u07",
+      "layout": "bullets",
+      "title": "Digital Communication Channels",
+      "bullets": [
+        "Email — formal advocate and chambers correspondence",
+        "Messaging and video calls for client meetings",
+        "Shared drives for team document collaboration",
+        "Clear subject lines and labeled attachments",
+        "Confidentiality: avoid personal channels for client data",
+        "Use institution-approved tools where required"
+      ],
+      "notes": "Email remains professional default. Teach subject-line clarity and attachment naming. Warn against sending sensitive matter details through unsecured personal apps."
+    },
+    {
+      "id": "u08",
+      "layout": "bullets",
+      "title": "Introduction to Artificial Intelligence",
+      "bullets": [
+        "Systems performing tasks needing human-like intelligence",
+        "Pattern recognition, language understanding, recommendations",
+        "Already embedded in research and document tools",
+        "Not limited to chatbots — includes analytics dashboards",
+        "Assists lawyers; does not replace professional judgment",
+        "Ethical use is mandatory — detailed in Unit 5"
+      ],
+      "notes": "Counter the myth that AI equals only ChatGPT. Frame AI as a family of techniques applied across legal tech. Preview that Unit 5 covers ethics in depth."
+    },
+    {
+      "id": "u09",
+      "layout": "bullets",
+      "title": "Brief History of AI",
+      "bullets": [
+        "1950s–80s: symbolic and rule-based expert systems",
+        "1990s–2000s: machine learning from data examples",
+        "2010s: deep learning advances in language and vision",
+        "2020s: generative AI widely available to professionals",
+        "Legal tech adoption accelerated with NLP tools",
+        "Regulation and ethics now catch up with capability"
+      ],
+      "notes": "Keep history brief—a timeline slide for exams. Key exam phrase: evolution from rules → learning from data → generative models."
+    },
+    {
+      "id": "u10",
+      "layout": "two_column",
+      "title": "AI in the Legal Profession",
+      "left": {
+        "heading": "Current Applications",
+        "bullets": [
+          "Legal research and case summarization",
+          "Document review and contract analysis support",
+          "Analytics dashboards for case management",
+          "Drafting assistance under lawyer supervision"
+        ]
+      },
+      "right": {
+        "heading": "Professional Caution",
+        "bullets": [
+          "Verify every citation — AI can hallucinate",
+          "Protect client confidentiality in all tools",
+          "Human lawyer remains accountable",
+          "Unit 5 covers ethics and limitations fully"
+        ]
+      },
+      "notes": "High-yield short note topic: AI applications in law. Always pair capability with accountability. Hallucinated citations are a known professional risk."
+    },
+    {
+      "id": "u11",
+      "layout": "bullets",
+      "title": "AI Techniques and Future Scope",
+      "bullets": [
+        "Expert systems — rules encoding legal logic (conceptual)",
+        "Machine learning — models trained on examples",
+        "NLP — processing statutes, judgments, contracts",
+        "Generative models — create new text from patterns",
+        "Future: more embedded tools, stronger analytics",
+        "Growing demand for ethical and regulatory frameworks"
+      ],
+      "notes": "Conceptual only—no math required. Students should name technique families and link each to a legal use case at a survey level."
+    },
+    {
+      "id": "u12",
+      "layout": "bullets",
+      "title": "Unit 1 — Exam Tips",
+      "bullets": [
+        "Define computer and explain IPO + storage cycle",
+        "List hardware vs application vs system software",
+        "State two core functions of an operating system",
+        "Distinguish browser search from legal databases",
+        "Short note: AI applications in the legal profession",
+        "Avoid confusing OS with MS Office applications"
+      ],
+      "notes": "Exam tip slide. Common MCQ traps: software categories, OS purpose, and over-trusting AI. Revise definitions and one legal workflow example."
+    },
+    {
+      "id": "u13",
+      "layout": "closing",
+      "title": "Unit 1 — Next steps",
+      "bullets": [
+        "Complete unit labs",
+        "Attempt unit Q&A bank",
+        "Submit unit assignment",
+        "Revise using revision sheet"
+      ],
+      "notes": "Point students to materials/labs and materials/qa for this unit."
+    }
+  ]
+}

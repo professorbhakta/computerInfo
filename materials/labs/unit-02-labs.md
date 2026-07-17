@@ -1,0 +1,94 @@
+# Unit 2 — Labs: MS Word for Legal Documentation
+
+**Course:** Computer Information | **Mapped syllabus practicals:** 2, 3
+
+## Lab 2 — Legal Documents in MS Word: Notice, Affidavit, Agreement
+
+**Unit:** T2 | **Objectives:** Obj 3, 4, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Create three legal document types using MS Word conventions.
+- Apply page layout, styles, and tables appropriate to filing practice.
+
+### Setup
+
+- MS Word (desktop or web per lab policy).
+- Hypothetical fact pattern provided by instructor (property notice, tenant dispute, or consumer complaint).
+
+### Procedure
+
+1. **Notice**
+   - New document; set margins (e.g., 1" or as per local filing norm).
+   - Add header: advocate name and chamber address; footer: page number.
+   - Draft notice with styles: Heading 1 for title, numbered paragraphs for facts and demand.
+   - Save as `Notice_RollNo.docx`.
+
+2. **Affidavit**
+   - New section or document; caption matching notice parties.
+   - First-person numbered paragraphs; verification block; space for oath commissioner.
+   - Save as `Affidavit_RollNo.docx`.
+
+3. **Agreement**
+   - Short two-party agreement (consultancy or retainer).
+   - Insert **table** for payment milestones (date, amount, description).
+   - Definitions clause and termination clause in numbered format.
+   - Save as `Agreement_RollNo.docx`.
+
+### Expected Outcome
+
+- Three `.docx` files with consistent professional formatting.
+- Each document structurally recognizable for its type.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Notice with header/footer and numbered body | |
+| 2 | Affidavit with verification clause | |
+| 3 | Agreement with table and clauses | |
+| 4 | Styles used (not only manual bold) | |
+| 5 | All files saved in Lab 1 folder | |
+
+---
+
+---
+
+## Lab 3 — Track Changes and Comments in Legal Drafting
+
+**Unit:** T2 | **Objectives:** Obj 3, 4, 9 | **Duration:** 1–2 hours
+
+### Objectives
+
+- Enable and interpret Track Changes for collaborative review.
+- Insert, reply to, and resolve comments simulating senior-junior workflow.
+
+### Setup
+
+- Open `Agreement_RollNo.docx` from Lab 2 (or instructor template).
+
+### Procedure
+
+1. Turn on **Review → Track Changes**.
+2. Make at least **five edits**: two insertions, one deletion, one formatting change, one clause renumbering.
+3. Add **three comments**: e.g., "Confirm client instruction," "Verify stamp duty," "Soften penalty clause."
+4. Switch to **Simple Markup** vs **All Markup** views; observe difference.
+5. Partner swap (or instructor role-play): second reviewer adds one comment reply and **accepts** two changes, **rejects** one.
+6. Save final versions: `Agreement_Tracked.docx` and `Agreement_Accepted.docx` (after selective accept).
+
+### Expected Outcome
+
+- Document showing visible revision history and comment thread.
+- Student can explain accept/reject impact on final text.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Track Changes enabled throughout editing | |
+| 2 | ≥5 tracked edits visible | |
+| 3 | ≥3 comments with professional text | |
+| 4 | Accept/reject demonstrated | |
+| 5 | Both file versions saved | |
+
+---

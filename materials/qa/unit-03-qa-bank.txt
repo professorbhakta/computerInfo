@@ -1,0 +1,114 @@
+Unit 3 — Question Bank: MS Excel for Legal Data Management
+==========================================================
+
+Course: Computer Information | Objectives: [5, 9]  
+Formats: Easy / Medium / Hard with Bloom tags  
+Also see: full-course-qa-bank.md for the combined bank.
+
+---
+
+E7
+~~
+[Easy] [Remember] [Obj 5] What is the difference between an Excel workbook and a worksheet?
+
+Answer: A workbook is the entire Excel file (.xlsx); a worksheet is a single tab/sheet within that workbook.
+
+---
+
+---
+
+E8
+~~
+[Easy] [Remember] [Obj 5] Write the Excel formula to sum values in cells B2 through B10.
+
+Answer: =SUM(B2:B10)
+
+---
+
+---
+
+M4
+~~
+[Medium] [Apply] [Obj 5] A case tracker has columns: Case ID (A), Status (B), Hearing Date (C). Write a formula in D2 to display "Urgent" if hearing is within 7 days of TODAY(), else "Routine". (Assume C2 holds a valid date.)
+
+Answer: =IF(C2-TODAY()<=7,"Urgent","Routine")  
+(Alternative acceptable: =IF(C2<=TODAY()+7,"Urgent","Routine"))
+
+---
+
+---
+
+M5
+~~
+[Medium] [Apply] [Obj 5] Explain how AutoFilter helps manage a chambers case register with 200 matters.
+
+Answer: AutoFilter displays only rows matching criteria (e.g., status = "Pending", court = "High Court") without deleting data, enabling quick review of subsets, hearing lists, and advocate workload—critical for daily case management.
+
+---
+
+---
+
+M6
+~~
+[Medium] [Apply] [Obj 5] A billing sheet lists hours in column E and rate in column F. What formula in G2 calculates fee for row 2?
+
+Answer: =E2*F2
+
+---
+
+---
+
+M12
+~~~
+[Medium] [Apply] [Obj 9] List four file-management practices for secure legal work on a shared lab computer.
+
+Answer: Log out after use; save to designated user folder not desktop; use meaningful file names (client matter + doc type + date); avoid leaving confidential PDFs in downloads; back up to approved cloud/USB per institutional policy.
+
+---
+
+Section C — Hard [Hard]
+-----------------------
+
+---
+
+H3
+~~
+[Hard] [Apply] [Obj 5] Given a client table (A: Client ID, B: Name, C: Matter Type, D: Fees Due), explain how you would use SORT, FILTER, and a chart to prepare a monthly collections report for the senior partner.
+
+Answer: FILTER rows where Fees Due > 0; SORT by Fees Due descending; add SUM for total outstanding; insert column chart by Matter Type or top 10 clients by amount; label chart with date range; ensure client identifiers are handled per privacy policy before sharing.
+
+---
+
+---
+
+H4
+~~
+[Hard] [Analyze] [Obj 5] Why does merging cells in a case-tracking spreadsheet often break sorting and filtering? How would you redesign the sheet?
+
+Answer: Merged cells create irregular ranges that Excel treats as single blocks, disrupting column-wise sort/filter logic. Redesign: one row per case; use "Wrap Text" and consistent column widths instead of merges; use Center Across Selection for titles if needed; keep header row unmerged.
+
+---
+
+---
+
+U3-E1
+~~~~~
+[Easy] [Remember] [Obj 5] Write an Excel formula for balance due if Fees are in D2 and Paid in E2.
+
+Answer: =D2-E2
+
+---
+
+U3-M1
+~~~~~
+[Medium] [Apply] [Obj 5] You maintain a case register. Which columns are essential for “today’s board” filtering, and how would you filter them?
+
+Answer: Essential: NextDate/Status (and ideally Court/CaseID). Use AutoFilter on Status="Listed"/"Pending" and/or NextDate = today; freeze header row first.
+
+---
+
+U3-H1
+~~~~~
+[Hard] [Analyze] [Obj 5] Explain why merging header cells can break sorting/filtering in a legal case register and what to do instead.
+
+Answer: Merged cells disrupt contiguous column fields Excel needs for sort/filter. Use a single header row, freeze panes, and put titles in the sheet header/print title area instead of merging data headers.

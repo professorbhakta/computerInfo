@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Unit 2 — MS Word for Legal Documentation",
+    "subtitle": "Computer Information · Law students",
+    "author": "Academic Content Factory",
+    "subject_slug": "computer-info",
+    "version": "v1.0",
+    "theme": "campus-blue",
+    "language": "en"
+  },
+  "slides": [
+    {
+      "id": "u00",
+      "layout": "title",
+      "title": "Unit 2",
+      "subtitle": "MS Word for Legal Documentation",
+      "notes": "Teach Unit 2 as a modular block (6 hours)."
+    },
+    {
+      "id": "u01",
+      "layout": "section",
+      "title": "Unit 2 — MS Word for Legal Documentation",
+      "notes": "Six hours, 10% weight. Live-demo drafting. Insist on styles over manual formatting. Track changes models senior review workflow."
+    },
+    {
+      "id": "u02",
+      "layout": "bullets",
+      "title": "Word for Professional Legal Documents",
+      "bullets": [
+        "Primary tool for notices, agreements, petitions, affidavits",
+        "Professional output needs styles, not random font clicks",
+        "Consistent layout signals credibility to courts",
+        "Revision tools support supervised collaboration",
+        "Export to PDF after final proofreading",
+        "Syllabus practicals include notice and affidavit drafts"
+      ],
+      "notes": "Set expectations: formatting discipline equals professional credibility. Students will submit tracked-revision samples in lab work."
+    },
+    {
+      "id": "u03",
+      "layout": "bullets",
+      "title": "Creating and Formatting Documents",
+      "bullets": [
+        "Set font, size, line spacing, and alignment first",
+        "Use Styles (Heading 1, Body Text) for consistency",
+        "Styles enable automatic Table of Contents",
+        "Avoid multiple Enter presses for vertical spacing",
+        "Times New Roman or Arial per college/court norms",
+        "Save versions with clear filenames"
+      ],
+      "notes": "Demonstrate applying a Style versus manual bold/size. Styles are the professional standard and save time on long petitions."
+    },
+    {
+      "id": "u04",
+      "layout": "bullets",
+      "title": "Page Layout, Headers, and Footers",
+      "bullets": [
+        "Margins, orientation, and paper size affect filing readability",
+        "Headers: matter title, confidentiality label, court name",
+        "Footers: page numbers essential on long petitions",
+        "Section breaks when header/footer content changes",
+        "Columns rarely used; tables preferred for structured data",
+        "Preview print layout before submission"
+      ],
+      "notes": "Common pitfall: forgetting page numbers. Show header/footer insertion and when to use section breaks in multi-part documents."
+    },
+    {
+      "id": "u05",
+      "layout": "bullets",
+      "title": "Tables in Legal Documents",
+      "bullets": [
+        "Organize parties, timelines, property schedules, fee lists",
+        "Insert via Insert → Table; define columns before data",
+        "Use table styles for readable borders and shading",
+        "Avoid merged cells that break later sorting",
+        "Keep tables simple for court and client clarity",
+        "Convert tabular facts from narrative where helpful"
+      ],
+      "notes": "Tables beat space-bar alignment. Show a party-details table and a limitation timeline as legal examples."
+    },
+    {
+      "id": "u06",
+      "layout": "bullets",
+      "title": "Mail Merge — Steps and Legal Uses",
+      "bullets": [
+        "Step 1: Create template with merge fields (Name, Address)",
+        "Step 2: Connect data source (Excel or CSV list)",
+        "Step 3: Insert fields and preview each record",
+        "Step 4: Complete merge — print, PDF, or individual files",
+        "Use for batch client letters and workshop invitations",
+        "High-yield procedural question in SEE and CIA"
+      ],
+      "notes": "Mail merge steps are exam favorites. Demo with a small client list producing personalized notices or update letters."
+    },
+    {
+      "id": "u07",
+      "layout": "bullets",
+      "title": "References, Citations, and Footnotes",
+      "bullets": [
+        "References tab manages footnotes and endnotes",
+        "Footnotes for academic seminar and project work",
+        "Bibliography tools support consistent citation lists",
+        "Follow college citation style when specified",
+        "Cross-references link to sections, figures, or tables",
+        "Professional filings may use manual citation per court rules"
+      ],
+      "notes": "Distinguish academic footnote workflow from court filing conventions. Students need both awareness for seminars and practice drafts."
+    },
+    {
+      "id": "u08",
+      "layout": "bullets",
+      "title": "Track Changes and Comments",
+      "bullets": [
+        "Revision mode records insertions, deletions, and formatting",
+        "Comments flag questions without altering text",
+        "Supervisor reviews; drafter accepts or rejects edits",
+        "Essential in chambers and moot coach feedback",
+        "Deliver clean copy unless markup is requested",
+        "Never accept all changes without reading each one"
+      ],
+      "notes": "Workflow: draft → review → accept/reject → finalize. Pitfall: submitting a document with visible markup unintentionally."
+    },
+    {
+      "id": "u09",
+      "layout": "two_column",
+      "title": "Legal Drafting Document Types",
+      "left": {
+        "heading": "Notices & Agreements",
+        "bullets": [
+          "Notice: parties, facts, demand, timeline, signature",
+          "Agreement: title, parties, recitals, clauses, signatures",
+          "Clear numbered paragraphs for facts",
+          "Demand or obligation stated in plain language"
+        ]
+      },
+      "right": {
+        "heading": "Petitions & Affidavits",
+        "bullets": [
+          "Petition: court title, parties, facts, grounds, prayer",
+          "Affidavit: deponent details, numbered facts, verification",
+          "Verification or oath block at the end",
+          "Structure matters as much as formatting"
+        ]
+      },
+      "notes": "Students must outline skeleton structures for exams. Formatting supports substance—learn both. Lab: draft a practice notice and affidavit."
+    },
+    {
+      "id": "u10",
+      "layout": "bullets",
+      "title": "Unit 2 — Exam Tips",
+      "bullets": [
+        "Memorize four mail merge steps in order",
+        "Explain purpose of track changes in legal drafting",
+        "Outline structure of notice vs affidavit vs petition",
+        "Name five syllabus Word features with one-line purpose",
+        "Procedure questions: headers, footers, page numbers",
+        "Pitfall: spaces instead of styles or proper tables"
+      ],
+      "notes": "Revise mail merge and track changes first—they appear repeatedly. Practice outlining document skeletons from memory."
+    },
+    {
+      "id": "u11",
+      "layout": "closing",
+      "title": "Unit 2 — Next steps",
+      "bullets": [
+        "Complete unit labs",
+        "Attempt unit Q&A bank",
+        "Submit unit assignment",
+        "Revise using revision sheet"
+      ],
+      "notes": "Point students to materials/labs and materials/qa for this unit."
+    }
+  ]
+}

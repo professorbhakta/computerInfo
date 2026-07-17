@@ -26,10 +26,9 @@ No other long-lived branches.
 ## Quick links
 
 - Full-course notes: [`notes/full-course-notes.md`](./notes/full-course-notes.md)
-- Outline: [`notes/outline.md`](./notes/outline.md)
+- Per-unit notes: [`notes/unit-01`](./notes/unit-01) … [`unit-05`](./notes/unit-05)
 - Full-course PPTX: [`slides/course/computer-info-full-course.pptx`](./slides/course/computer-info-full-course.pptx)
+- Per-unit slides: [`slides/unit-01`](./slides/unit-01) … [`unit-05`](./slides/unit-05)
 - Syllabus: [`materials/syllabus/`](./materials/syllabus/)
-- Q&A bank: [`materials/qa/full-course-qa-bank.md`](./materials/qa/full-course-qa-bank.md)
-- Assignments: [`materials/assignments/`](./materials/assignments/)
-- Labs: [`materials/labs/full-course-labs.md`](./materials/labs/full-course-labs.md)
+- Per-unit Q&A / assignments / labs: under [`materials/`](./materials/) (`unit-01` … `unit-05`)
 - Revision sheet: [`materials/revision-sheet.md`](./materials/revision-sheet.md)

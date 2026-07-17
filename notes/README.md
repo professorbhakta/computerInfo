@@ -2,21 +2,23 @@
 
 Student and teaching notes for **Computer Information**.
 
-Each teaching file is provided in **three formats**:
+Each teaching file is provided in **three formats**: `.md` · `.txt` · `.docx`.
 
-| Format | Use |
+## Full course
+
+| File | Description |
 |---|---|
-| `.md` | Git-friendly source |
-| `.txt` | Easy reading / quick review |
-| `.docx` | Word / printing / sharing |
+| `outline.*` | Full-course curriculum outline |
+| `full-course-notes.*` | Combined notes for Units 1–5 |
 
-## Files
+## Per unit (all five)
 
-| Path | Description |
+| Folder | Unit |
 |---|---|
-| `outline.md` / `.txt` / `.docx` | Full-course curriculum outline (Bloom objectives) |
-| `full-course-notes.md` / `.txt` / `.docx` | Combined notes for Units 1–5 |
-| [`unit-01/`](./unit-01/) | Unit 1 — Introduction to Basic Computing (md + txt + docx) |
-| [`unit-02/`](./unit-02/) | Unit 2 — MS Word for Legal Documentation (md + txt + docx) |
+| [`unit-01/`](./unit-01/) | Introduction to Basic Computing |
+| [`unit-02/`](./unit-02/) | MS Word for Legal Documentation |
+| [`unit-03/`](./unit-03/) | MS Excel for Legal Data Management |
+| [`unit-04/`](./unit-04/) | MS PowerPoint |
+| [`unit-05/`](./unit-05/) | AI and Ethical Use of AI |
 
-Units 3–5: use `full-course-notes.*` (sections T3–T5) until split unit folders are added.
+Each unit folder contains the unit notes in **md + txt + docx**.

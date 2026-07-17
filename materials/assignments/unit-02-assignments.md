@@ -1,71 +1,38 @@
-# Computer Information — Unit 2 Assignments
+# Unit 2 — Assignments: MS Word for Legal Documentation
 
-**Parul University** · BA-LLB · **Computer Information** · **Prof. Shivam Bhakta**  
-Aligned to Unit-2: MS Word for Legal Documentation
+**Course:** Computer Information | **Hours:** 6
 
----
+This unit assignment is taken from the full-course pack and scoped to Unit 2.
 
-## Assignment 1 — Professional Notice Shell (Individual) — 10 marks
+## Assignment A1 — Legal Documentation Portfolio (MS Word)
 
-Create a classroom dummy **Legal Notice** in MS Word (A4):
+**Title:** Drafting and Formatting Legal Documents with Professional Review Workflow  
+**Unit alignment:** T2 | **Objectives:** Obj 3, 4, 9  
+**Estimated effort:** 4–6 hours  
+**Deliverables:** One `.docx` portfolio containing three documents (separate sections or files in a zip if preferred by instructor)
 
-1. Sender block, date, recipient block, bold subject  
-2. At least 6 numbered paragraphs (dummy facts)  
-3. Clear demand + timeline paragraph  
-4. Header label: `CLASSROOM DRAFT — NOT FOR FILING`  
-5. Footer with page number and enrolment no.  
-6. Save `.docx` + export `.pdf`  
-7. Professional file names for both
+### Task
 
-Submit both files + 1/2-page note listing Word features used.
+1. **Legal Notice** (1–2 pages): Draft a notice on a hypothetical property or consumer dispute. Use proper heading, numbered paragraphs, demand clause, and advocate signature block.
+2. **Affidavit** (1 page): Draft an affidavit in support of the notice, including verification and attestation placeholders.
+3. **Simple Agreement** (2–3 pages): Prepare a short service/consultancy agreement between a client and an advocate with definitions, scope, fees, confidentiality, and termination clauses.
 
----
+### Technical requirements (Word)
 
-## Assignment 2 — Track Changes Collaboration (Pair) — 10 marks
+- Apply **styles** (Heading 1, Heading 2, Normal) — no manual font spamming.
+- **Headers/footers** with document title and page numbers.
+- At least one **table** (e.g., fee schedule or timeline).
+- **References/citations** section with at least two sources in a consistent format (e.g., footnotes or bibliography).
+- On the agreement only: enable **Track Changes** and make at least five substantive edits; add two **comments** explaining revisions (simulate senior review).
 
-1. Partner A drafts a 1-page dummy affidavit body (numbered paragraphs).  
-2. Partner B edits with **Track Changes ON** and adds at least 3 comments.  
-3. Partner A responds: accept/reject with rationale (short log table).  
-4. Submit: marked DOCX + clean DOCX + PDF + edit-log table.
+### Rubric (25 marks)
 
----
-
-## Assignment 3 — Tables + Chronology (Individual) — 10 marks
-
-Prepare a petition working note containing:
-
-1. Cause-title style heading (dummy)  
-2. “List of Dates” table (min 6 rows)  
-3. Annexure Index table (min 4 annexures)  
-4. Consistent fonts and page number  
-5. One-page reflection: why tables improve legal clarity
+| Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks |
+|-----------|---------------|------------|-------------------------|-------|
+| Legal structure & clarity (Obj 4) | All three doc types correctly structured; legally coherent facts | Minor structural gaps | Missing sections or incoherent | /5 |
+| Formatting & layout (Obj 3) | Consistent styles, margins, headers/footers, professional appearance | Minor inconsistencies | Mostly manual formatting | /5 |
+| Tables & references (Obj 3) | Table and citations correctly formatted and relevant | Present but weak formatting | Missing or incorrect | /5 |
+| Track changes & comments (Obj 3) | Clear revision history; comments show professional judgment | Present but superficial | Missing or improper use | /5 |
+| File hygiene & submission (Obj 9) | Correct naming, complete portfolio, no corruption | Minor submission issues | Incomplete | /5 |
 
 ---
-
-## Assignment 4 — Mail Merge Mini Lab (Individual/Pair) — 15 marks
-
-1. Create Excel data source with 5 recipients (Name, Address, Amount, DueDate).  
-2. Create Word demand-reminder template with merge fields.  
-3. Preview and merge to individual letters (or combined document).  
-4. Write a risk note (150–200 words): wrong-amount risk, confidentiality, senior checking protocol.  
-5. Submit: Excel + Word template + merged output sample + risk note.
-
----
-
-## Assignment 5 — Agreement Starter with Styles/TOC (Optional CIA) — 10 marks
-
-Create a 3–4 page dummy agreement using Heading styles, at least one schedule table, signature blocks, and an automatic Table of Contents. Export PDF.
-
----
-
-## Submission Checklist
-
-- [ ] Name / enrolment / semester on first page or cover note  
-- [ ] Unit 2 + assignment number in file names  
-- [ ] Dummy facts only (no real confidential client data)  
-- [ ] DOCX + PDF where required  
-- [ ] Feature list / reflection included
-
----
-
-*Prof. Shivam Bhakta · Parul University · Computer Information*

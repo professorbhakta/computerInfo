@@ -1,0 +1,52 @@
+# Unit 3 — Assignments: MS Excel for Legal Data Management
+
+**Course:** Computer Information | **Hours:** 6
+
+This unit assignment is taken from the full-course pack and scoped to Unit 3.
+
+## Assignment A2 — Chambers Case Register & Billing (MS Excel)
+
+**Title:** Case Tracking, Client Records, and Billing with Formulas and Visualization  
+**Unit alignment:** T3 | **Objectives:** Obj 5, 9  
+**Estimated effort:** 4–6 hours  
+**Deliverables:** One `.xlsx` workbook with three worksheets
+
+### Task
+
+Create a workbook for a fictional law chamber with **minimum 15 case rows** and **10 client billing rows** (may overlap by Client ID).
+
+#### Worksheet 1: `Case_Register`
+
+Columns (at minimum): Case ID, Client Name, Court, Matter Type, Status (Pending/Disposed), Hearing Date, Advocate Assigned.
+
+- Use **data validation** for Status and Matter Type.
+- **Conditional formatting** to highlight hearings within 14 days.
+- **FILTER** or AutoFilter demonstration: include a screenshot sheet or instructions tab showing filtered "Pending" High Court matters (instructor may observe live).
+
+#### Worksheet 2: `Client_Billing`
+
+Columns: Invoice ID, Client ID, Client Name, Hours, Rate, Amount, Payment Status (Paid/Unpaid).
+
+- **Formulas:** Amount = Hours × Rate; **SUM** total billed; **COUNTIF** unpaid invoices.
+- **IF** formula to label "Follow-up" when unpaid and Amount > 5000.
+
+#### Worksheet 3: `Dashboard`
+
+- **Chart** (column or pie): cases by Status or fees by Matter Type.
+- Summary cells linked to formulas (total cases, total outstanding fees).
+
+### Privacy note
+
+Use **fictional names and matter details only**. Do not use real client data.
+
+### Rubric (25 marks)
+
+| Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks |
+|-----------|---------------|------------|-------------------------|-------|
+| Data structure (Obj 5) | Logical columns; no merged data cells; 15+ cases | Minor schema issues | Incomplete dataset | /5 |
+| Formulas & functions (Obj 5) | SUM, IF, COUNTIF correct; no hard-coded totals | One formula error | Mostly typed values | /5 |
+| Sort/filter & validation (Obj 5) | Filter/validation used effectively | Basic use only | Missing | /5 |
+| Chart & dashboard (Obj 5) | Clear chart with labels; linked summaries | Chart present but weak | Missing | /5 |
+| Professional presentation (Obj 9) | Readable, titled sheets; fictional data only | Minor issues | Messy or real data used | /5 |
+
+---

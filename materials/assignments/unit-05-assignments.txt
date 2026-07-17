@@ -1,0 +1,65 @@
+Unit 5 — Assignments: AI and Ethical Use of AI
+==============================================
+
+Course: Computer Information | Hours: 6
+
+This unit assignment is taken from the full-course pack and scoped to Unit 5.
+
+Assignment A4 — AI Ethics & Human vs AI Drafting Comparison
+-----------------------------------------------------------
+
+Title: Responsible AI Use and Comparative Drafting Analysis  
+Unit alignment: T5 | Objectives: Obj 7, 8, 9  
+Estimated effort: 4–6 hours  
+Deliverables: PDF report (1,200–1,800 words) + appendix screenshots (redacted)
+
+Task
+~~~~
+
+Part 1 — AI-assisted research and summarization (Obj 7)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Select a public legal topic (e.g., a landmark judgment summary available online—no confidential client facts).
+2. Use an approved AI tool (institutional or instructor-specified) to summarize the issue and holding.
+3. Independently verify the summary against the primary source.
+4. Document: prompt used, output, verification steps, errors found (if any).
+
+Part 2 — Ethical analysis (Obj 8)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Write a structured critique covering:
+
+- Privacy & confidentiality: What data you refused to enter and why.
+- Bias: Whether the AI summary skewed facts or omitted parties/context.
+- Accuracy & hallucination: Citation or proposition check results.
+- Accountability: Who is responsible if this were filed in court.
+- Limitations: Where AI is unsuitable for this task.
+
+Part 3 — Comparative drafting (Obj 7, 8, 9)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On the same topic, produce:
+
+- Human draft: One paragraph of professional legal commentary (your own words).
+- AI draft: One paragraph from generative AI (same prompt disclosed).
+
+Compare on: clarity, accuracy, tone, citation integrity, and fitness for client advice. Conclude with a responsible-use policy (5–7 bullet points) for a student law clinic.
+
+Constraints
+~~~~~~~~~~~
+
+- Do not input real client names, case IDs, or sealed material into public AI systems.
+- Redact screenshots in the appendix.
+- Cite all non-AI sources.
+
+Rubric (25 marks)
+~~~~~~~~~~~~~~~~~
+
+Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks
+Research & verification (Obj 7) | Thorough primary-source check; errors flagged | Partial verification | No verification | /5
+Ethical analysis depth (Obj 8) | All five themes addressed with examples | Superficial on 1–2 themes | Generic or missing | /5
+Comparative drafting (Obj 9) | Insightful human vs AI comparison | Descriptive only | Missing comparison | /5
+Responsible-use policy (Obj 8) | Practical, syllabus-aligned bullets | Vague guidelines | Absent | /5
+Academic integrity (Obj 9) | No confidential data; proper citations | Minor issues | Policy violations | /5
+
+---

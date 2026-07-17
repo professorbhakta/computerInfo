@@ -1,0 +1,53 @@
+# Unit 4 — Labs: MS PowerPoint
+
+**Course:** Computer Information | **Mapped syllabus practicals:** 6
+
+## Lab 6 — Moot Court PPT & Animated Legal Awareness Presentation
+
+**Unit:** T4 | **Objectives:** Obj 6, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Build an advocacy-oriented moot slide deck.
+- Create a second short deck demonstrating restrained animation for legal awareness.
+
+### Setup
+
+- MS PowerPoint; moot problem or awareness topic assigned.
+
+### Procedure
+
+**Part A — Moot deck (8 slides minimum)**
+
+1. Title slide (case name, forum, team).
+2. Facts (bullet clarity; no full paragraphs).
+3. Issues presented.
+4. Arguments split across 2–3 slides.
+5. Authorities (SmartArt: hierarchy of courts or precedent chain).
+6. Prayer / relief sought.
+7. Speaker notes on argument slides.
+
+**Part B — Awareness mini-deck (5 slides)**
+
+1. Topic title (e.g., "Filing an FIR: What Citizens Should Know").
+2. Process SmartArt (steps to report).
+3. One chart (illustrative statistics—source cited).
+4. Apply **one transition** between sections; **two animations** total.
+5. Save as `Moot_RollNo.pptx` and `Awareness_RollNo.pptx`.
+
+### Expected Outcome
+
+- Two presentations demonstrating structure, SmartArt/chart, and controlled motion.
+- Present 2-minute excerpt to class or record voice-over if required.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Moot deck ≥8 slides with notes | |
+| 2 | SmartArt used in moot or awareness deck | |
+| 3 | Chart with source note | |
+| 4 | Animations limited and purposeful | |
+| 5 | Oral delivery or recording completed | |
+
+---

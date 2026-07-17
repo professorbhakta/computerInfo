@@ -1,0 +1,88 @@
+Unit 3 — MS Excel for Legal Data Management
+===========================================
+
+Course: Computer Information (law students)  
+Hours / weight: 6 hrs · 10%  
+Objectives: 5, 9
+
+How to use
+----------
+Study this unit, complete the matching lab(s), then attempt the unit Q&A bank.
+
+Objectives: 5, 9
+
+Core ideas
+~~~~~~~~~~
+Excel turns scattered case facts into manageable legal data: registers, limitation reminders, client lists, and billing. The power is in structure + formulas + filters/charts, not in pretty colors alone.
+
+Key definitions
+~~~~~~~~~~~~~~~
+- Worksheet — single grid (tabs at bottom).
+- Workbook — the .xlsx file containing worksheets.
+- Cell reference — address like B2; formulas begin with =.
+- Function — named calculation (SUM, AVERAGE, IF, COUNTIF…).
+- Filter / Sort — show/order rows by criteria (e.g., status = Pending).
+- Chart — visual summary of numbers (bar/pie/line).
+
+Explanation
+~~~~~~~~~~~
+
+Basics & formatting
+~~~~~~~~~~~~~~~~~~~
+Design columns before typing dozens of rows. Example Case Register columns:
+
+CaseID | Client | OppositeParty | Court | FilingDate | NextDate | Status | Advocate | FeesDue | Notes
+
+Format dates as dates; currency as number/currency; freeze header row; wrap long text.
+
+Formulas & functions (must-practice)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- =SUM(H2:H100) — total fees.  
+- =IF(G2="Pending","Follow-up","OK") — status helper.  
+- =COUNTIF(G:G,"Pending") — count pending matters.  
+- Lookup functions (intro): find client mobile from a Client Master sheet.
+
+Always ask: Should this be typed, or calculated? Calculated values update when inputs change.
+
+Sorting, filtering, charts
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Filter Status = Listed Today before court.
+- Chart fee collection by month for a simple practice dashboard.
+- Do not merge header cells across columns you need to sort.
+
+Legal records, case tracking, client data, billing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Case tracking: next date, stage, limitation notes.  
+- Client data: contact, conflict check note, related matters (keep confidential).  
+- Billing: hours/fees, GST fields if taught, amount paid/balance formula (FeesDue - AmountPaid).
+
+flowchart TD
+  A[Enter case row] --> B[Formulas calculate totals/flags]
+  B --> C[Filter for today's board]
+  C --> D[Chart / report for review]
+
+Worked example
+~~~~~~~~~~~~~~
+Create Billing sheet: Date, Client, Matter, Description, Hours, Rate, Amount (=Hours*Rate), Paid, Balance. Total with SUM. Chart Amount by Client.
+
+Exam tip
+~~~~~~~~
+Write formulas with = and correct references. Explain workbook vs worksheet. Give one legal use each for filter and chart.
+
+Common pitfalls
+~~~~~~~~~~~~~~~
+- Typing 5000 instead of =B2*C2.  
+- Inconsistent status spellings (pending vs Pending) breaking filters.  
+- Emailing unprotected workbooks with sensitive client data.
+
+Key takeaways
+~~~~~~~~~~~~~
+- Structure columns first; formulas second; filters/charts for decisions.
+- Excel is a legal operations tool, not only “accounts.”
+- Accuracy + confidentiality are part of competence.
+
+Self-check
+~~~~~~~~~~
+1. [Remember] Define workbook and worksheet.  
+2. [Apply] Write a formula for balance due.  
+3. [Analyze] Which columns are essential in a moot court team case tracker?

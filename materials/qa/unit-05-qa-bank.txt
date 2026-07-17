@@ -1,0 +1,103 @@
+Unit 5 — Question Bank: AI and Ethical Use of AI
+================================================
+
+Course: Computer Information | Objectives: [2, 7, 8, 9]  
+Formats: Easy / Medium / Hard with Bloom tags  
+Also see: full-course-qa-bank.md for the combined bank.
+
+---
+
+E5
+~~
+[Easy] [Remember] [Obj 2] What does "AI" stand for, and give one legal application.
+
+Answer: Artificial Intelligence. Example application: automated legal research, document summarization, or predictive case analytics.
+
+---
+
+---
+
+E10
+~~~
+[Easy] [Understand] [Obj 8] Define "hallucination" in the context of generative AI used for legal work.
+
+Answer: A hallucination is when an AI system confidently produces incorrect or fabricated information—such as fake case citations or non-existent statutes.
+
+---
+
+---
+
+M8
+~~
+[Medium] [Understand] [Obj 2] Briefly compare rule-based AI and machine-learning AI with one legal example each.
+
+Answer: Rule-based systems follow explicit if-then logic (e.g., tax calculator from fixed rules). Machine-learning systems learn patterns from data (e.g., predicting case outcomes from historical judgments). Both may appear in legal tech with different transparency implications.
+
+---
+
+---
+
+M9
+~~
+[Medium] [Analyze] [Obj 8] A junior associate pastes a client's full case file into a public generative AI chatbot to draft a petition. Identify three ethical/legal risks.
+
+Answer: (1) Breach of client confidentiality and professional duty. (2) Potential violation of data-protection obligations. (3) Unreliable output (hallucinated citations) creating malpractice risk; possible unauthorized practice concerns if used without supervision.
+
+---
+
+---
+
+M11
+~~~
+[Medium] [Understand] [Obj 7] What is "human-in-the-loop" review when using AI for legal summarization?
+
+Answer: A qualified person reads the source material and the AI summary, verifies accuracy against originals, corrects errors, and takes professional responsibility before the summary is used in advice or filings.
+
+---
+
+---
+
+M12
+~~~
+[Medium] [Apply] [Obj 9] List four file-management practices for secure legal work on a shared lab computer.
+
+Answer: Log out after use; save to designated user folder not desktop; use meaningful file names (client matter + doc type + date); avoid leaving confidential PDFs in downloads; back up to approved cloud/USB per institutional policy.
+
+---
+
+Section C — Hard [Hard]
+-----------------------
+
+---
+
+H7
+~~
+[Hard] [Evaluate] [Obj 8] Compare responsible and irresponsible use of generative AI in drafting a bail application across dimensions: accuracy, privacy, bias, and accountability.
+
+Answer: Responsible: redacted facts, verified citations, senior review, disclosure if required by court rules, jurisdiction-specific arguments. Irresponsible: confidential data uploaded, uncited AI text filed as-is, generic arguments ignoring accused's socio-economic context (bias), no advocate sign-off. Accountability rests with the advocate, not the tool.
+
+---
+
+---
+
+U5-E1
+~~~~~
+[Easy] [Remember] [Obj 8] List three ethical risks of using public generative AI tools with legal documents.
+
+Answer: Confidentiality/privacy leakage; biased outputs; inaccurate/hallucinated authorities; unclear accountability (any three).
+
+---
+
+U5-M1
+~~~~~
+[Medium] [Apply] [Obj 7] Write a safe classroom prompt policy in five bullets for AI-assisted drafting exercises.
+
+Answer (sample): Use only fictional/anonymized facts; never paste real client data; verify every legal proposition; disclose AI assistance if required; human student remains responsible for the final text.
+
+---
+
+U5-H1
+~~~~~
+[Hard] [Evaluate] [Obj 8] Compare human drafting vs AI-assisted drafting on accuracy, tone, and professional responsibility. Give a reasoned recommendation for student practice.
+
+Answer: Humans better control facts, ethics, and accountability; AI can improve speed/structure but risks errors and leakage. Best practice: human outline → optional AI language help on non-confidential text → rigorous verification → supervisor review.

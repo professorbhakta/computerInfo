@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Unit 5 — AI and Ethical Use of AI",
+    "subtitle": "Computer Information · Law students",
+    "author": "Academic Content Factory",
+    "subject_slug": "computer-info",
+    "version": "v1.0",
+    "theme": "campus-blue",
+    "language": "en"
+  },
+  "slides": [
+    {
+      "id": "u00",
+      "layout": "title",
+      "title": "Unit 5",
+      "subtitle": "AI and Ethical Use of AI",
+      "notes": "Teach Unit 5 as a modular block (6 hours)."
+    },
+    {
+      "id": "u01",
+      "layout": "section",
+      "title": "Unit 5 — AI and Ethical Use in Law",
+      "notes": "Six hours, 10% weight. Pair every tool demo with ethics critique. Never paste confidential client data into public AI tools."
+    },
+    {
+      "id": "u02",
+      "layout": "bullets",
+      "title": "AI Tools for Legal Research",
+      "bullets": [
+        "Database AI: natural-language search in case law platforms",
+        "Summarization tools condense judgments and statutes",
+        "Citation verification still requires primary sources",
+        "Compare AI summary against original judgment text",
+        "Institution may provide approved research assistants",
+        "Open web chatbots are not substitutes for databases"
+      ],
+      "notes": "Demo research workflow with verification step. Stress that subscription databases remain authoritative; AI assists retrieval and summary."
+    },
+    {
+      "id": "u03",
+      "layout": "bullets",
+      "title": "Generative AI Basics",
+      "bullets": [
+        "Creates new text, images, or code from learned patterns",
+        "Large language models predict likely next words",
+        "Trained on vast corpora — not live legal databases",
+        "Useful for outlines, rephrasing, and brainstorming",
+        "Outputs may be wrong, outdated, or jurisdictionally off",
+        "Always label AI-assisted work per college policy"
+      ],
+      "notes": "Define generative AI for exams. Contrast with traditional search. Students should explain why training data limits legal reliability."
+    },
+    {
+      "id": "u04",
+      "layout": "bullets",
+      "title": "AI in Judiciary and Legal Analytics",
+      "bullets": [
+        "Analytics dashboards track case pendency and outcomes",
+        "NLP tools assist classification and document clustering",
+        "Some jurisdictions pilot AI transcription and translation",
+        "Predictive analytics raise fairness and transparency issues",
+        "Lawyers must understand tool limits in court contexts",
+        "Regulatory frameworks evolving globally"
+      ],
+      "notes": "Survey level only. Link to professional responsibility—analytics can reflect historical bias in court data."
+    },
+    {
+      "id": "u05",
+      "layout": "bullets",
+      "title": "AI-Assisted Drafting",
+      "bullets": [
+        "Tools suggest clauses, rephrase paragraphs, check tone",
+        "Useful starting point for notices and memo outlines",
+        "Lawyer must verify facts, law, and citations",
+        "Comparative lab: human draft vs AI-assisted draft",
+        "Never file AI output without full professional review",
+        "Client confidentiality rules apply to all inputs"
+      ],
+      "notes": "Practical 8 alignment: human vs AI drafting comparison. AI accelerates first drafts; accountability stays with the advocate."
+    },
+    {
+      "id": "u06",
+      "layout": "bullets",
+      "title": "Privacy and Data Protection",
+      "bullets": [
+        "Client names, facts, and documents are confidential",
+        "Public AI tools may store or train on your inputs",
+        "Use anonymized prompts or approved enterprise tools",
+        "Data protection laws govern personal information handling",
+        "Breach of confidentiality is a professional conduct issue",
+        "When in doubt, do not paste matter details into AI"
+      ],
+      "notes": "Core ethics topic. Scenario exams: student pastes client facts into ChatGPT—identify the confidentiality breach and correct approach."
+    },
+    {
+      "id": "u07",
+      "layout": "bullets",
+      "title": "Bias in AI Systems",
+      "bullets": [
+        "AI reflects biases in training data and design choices",
+        "May disadvantage groups in risk scoring or search ranking",
+        "Historical court data can encode systemic inequities",
+        "Lawyers must question AI recommendations critically",
+        "Document limitations when relying on analytics",
+        "Fairness and access to justice are legal values at stake"
+      ],
+      "notes": "Define bias for exams: systematic unfairness in outputs. Give examples: skewed training data affecting predictions or summaries."
+    },
+    {
+      "id": "u08",
+      "layout": "bullets",
+      "title": "Ethics Caution — Professional Responsibility",
+      "bullets": [
+        "You remain accountable for every filed document",
+        "AI does not hold a law license or appear in court",
+        "Disclose AI assistance when policy or court requires",
+        "Never cite AI-generated cases without verification",
+        "Competence includes understanding tools you use",
+        "Ethical practice means verify, protect, and disclose"
+      ],
+      "notes": "Ethics caution slide — pause for discussion. Use a vignette: fake citation discovered before filing. What should the student do?"
+    },
+    {
+      "id": "u09",
+      "layout": "bullets",
+      "title": "Limitations of AI in Law",
+      "bullets": [
+        "Hallucination — confident but fabricated citations or facts",
+        "Jurisdiction errors — foreign law presented as local",
+        "No real-world awareness of your specific matter",
+        "Cannot exercise ethical judgment or courtroom advocacy",
+        "Training cut-off dates miss recent amendments",
+        "AI assists research and drafting; it does not practice law"
+      ],
+      "notes": "Limitations are exam favorites alongside ethics. Hallucination and jurisdiction mismatch are concrete examples students must articulate."
+    },
+    {
+      "id": "u10",
+      "layout": "bullets",
+      "title": "Human-in-the-Loop Practice",
+      "bullets": [
+        "Human lawyer reviews every AI output before reliance",
+        "Verification loop: generate → check → correct → approve",
+        "Senior supervision for student AI-assisted work",
+        "Maintain research logs showing primary sources checked",
+        "Reject and rewrite when AI output fails quality bar",
+        "Professional standard: accountable human judgment last"
+      ],
+      "notes": "Human-in-the-loop is the operational answer to AI risk. Define it clearly—accountable human review over all consequential outputs."
+    },
+    {
+      "id": "u11",
+      "layout": "bullets",
+      "title": "Responsible and Ethical AI Use",
+      "bullets": [
+        "Use approved tools; know their terms of service",
+        "Minimize personal data in prompts; anonymize facts",
+        "Cross-check all legal propositions against primary sources",
+        "Educate clients about AI limits when relevant",
+        "Stay updated on bar council and college AI policies",
+        "Ethics is not optional — it is part of legal competence"
+      ],
+      "notes": "Synthesize Unit 5 into a responsible-use checklist. Connect to Course Outcome 8: Evaluate AI for ethics and professional limits."
+    },
+    {
+      "id": "u12",
+      "layout": "bullets",
+      "title": "Unit 5 — Exam Tips",
+      "bullets": [
+        "Short notes: bias, privacy, hallucination, human-in-the-loop",
+        "Scenario: identify confidentiality breach in AI use",
+        "Explain why AI citations must be verified independently",
+        "List three limitations of AI in legal practice",
+        "Compare human drafting vs AI-assisted drafting duties",
+        "Pitfall: assuming AI practices law or is always current"
+      ],
+      "notes": "Ethics vignettes dominate Unit 5 exams. Practice writing short structured answers: issue, rule/policy, application, conclusion."
+    },
+    {
+      "id": "u13",
+      "layout": "closing",
+      "title": "Unit 5 — Next steps",
+      "bullets": [
+        "Complete unit labs",
+        "Attempt unit Q&A bank",
+        "Submit unit assignment",
+        "Revise using revision sheet"
+      ],
+      "notes": "Point students to materials/labs and materials/qa for this unit."
+    }
+  ]
+}

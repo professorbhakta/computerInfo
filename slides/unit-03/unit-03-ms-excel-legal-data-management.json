@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Unit 3 — MS Excel for Legal Data Management",
+    "subtitle": "Computer Information · Law students",
+    "author": "Academic Content Factory",
+    "subject_slug": "computer-info",
+    "version": "v1.0",
+    "theme": "campus-blue",
+    "language": "en"
+  },
+  "slides": [
+    {
+      "id": "u00",
+      "layout": "title",
+      "title": "Unit 3",
+      "subtitle": "MS Excel for Legal Data Management",
+      "notes": "Teach Unit 3 as a modular block (6 hours)."
+    },
+    {
+      "id": "u01",
+      "layout": "section",
+      "title": "Unit 3 — MS Excel for Legal Data Management",
+      "notes": "Six hours, 10% weight. Use a realistic chambers case register. Emphasize client data privacy during demos."
+    },
+    {
+      "id": "u02",
+      "layout": "bullets",
+      "title": "Excel for Legal Data Management",
+      "bullets": [
+        "Turns scattered case facts into manageable registers",
+        "Workbook = .xlsx file; worksheet = single grid tab",
+        "Structure columns before entering many rows",
+        "Power comes from formulas, filters, and charts",
+        "Supports case tracking, client lists, and billing",
+        "Lab: case data sheet and billing sheet with formulas"
+      ],
+      "notes": "Frame Excel as a professional case-management tool, not just a calculator. Define workbook vs worksheet early—common exam distinction."
+    },
+    {
+      "id": "u03",
+      "layout": "bullets",
+      "title": "Data Entry and Formatting",
+      "bullets": [
+        "Design headers: CaseID, Client, Court, Status, FeesDue",
+        "Format dates as dates; currency as number/currency",
+        "Freeze top row so headers stay visible when scrolling",
+        "Wrap text for long notes; avoid unnecessary merges",
+        "One row per case or transaction — no blank spacer rows",
+        "Use Data Validation to limit Status dropdown values"
+      ],
+      "notes": "Show a Case Register column layout. Merged cells break sorting—warn students explicitly."
+    },
+    {
+      "id": "u04",
+      "layout": "bullets",
+      "title": "Formulas and Functions",
+      "bullets": [
+        "Every formula begins with = and uses cell references",
+        "=SUM(H2:H100) — total fees across matters",
+        "=AVERAGE() — mean value for reporting",
+        "=IF(G2=\"Pending\",\"Follow-up\",\"OK\") — status helper",
+        "=COUNTIF(G:G,\"Pending\") — count pending cases",
+        "Lookup (VLOOKUP/XLOOKUP): find client detail from master sheet"
+      ],
+      "notes": "Students must write formulas by hand in exams. Practice SUM, IF, and COUNTIF on a sample case register. Introduce lookup conceptually."
+    },
+    {
+      "id": "u05",
+      "layout": "bullets",
+      "title": "Sorting and Filtering Data",
+      "bullets": [
+        "Sort orders rows by date, client name, or fee amount",
+        "Filter shows only rows matching criteria (e.g., Pending)",
+        "AutoFilter arrows appear on header row",
+        "Multiple filters narrow to urgent matters quickly",
+        "Clear filters before applying new analysis",
+        "Interpret filtered views in scenario exam questions"
+      ],
+      "notes": "Demo filtering Status = Pending and sorting by NextDate. Exam scenarios may ask what a filter reveals about caseload."
+    },
+    {
+      "id": "u06",
+      "layout": "bullets",
+      "title": "Charts and Graphs",
+      "bullets": [
+        "Visual summary of numeric data — bar, pie, line charts",
+        "Select data range → Insert Chart → choose type",
+        "Bar charts compare case counts by court or status",
+        "Pie charts show proportion — use sparingly",
+        "Label axes and title for courtroom or seminar clarity",
+        "Charts update when underlying data changes"
+      ],
+      "notes": "Link chart choice to message: compare categories with bar; show trend over time with line. Keep charts simple and readable."
+    },
+    {
+      "id": "u07",
+      "layout": "bullets",
+      "title": "Case Tracking and Client Records",
+      "bullets": [
+        "Case register: filing date, next date, status, advocate",
+        "Client master sheet: contact, matter history, notes",
+        "Limitation reminders via date columns and IF formulas",
+        "Separate sensitive client data — access controls matter",
+        "Regular backups of active registers",
+        "Never share full client sheets on unsecured channels"
+      ],
+      "notes": "Privacy reminder throughout. A case tracker is the core lab deliverable—include NextDate and Status columns with formulas."
+    },
+    {
+      "id": "u08",
+      "layout": "bullets",
+      "title": "Billing and Documentation Sheets",
+      "bullets": [
+        "Columns: Date, Client, Description, Hours, Rate, Amount",
+        "Amount = Hours × Rate using formulas, not typed values",
+        "SUM row for total billable fees per period",
+        "Separate sheets for invoices vs payment received",
+        "Currency format and clear period labels (month/year)",
+        "Documentation sheet cross-links to case IDs"
+      ],
+      "notes": "Billing lab: build a sheet where Amount is formula-driven. Pitfall: typing totals instead of using SUM."
+    },
+    {
+      "id": "u09",
+      "layout": "bullets",
+      "title": "Unit 3 — Exam Tips",
+      "bullets": [
+        "Define workbook vs worksheet with examples",
+        "Write SUM, IF, and COUNTIF formulas from a scenario",
+        "Explain what a filter on Status = Pending shows",
+        "Interpret a simple bar chart of case counts",
+        "Pitfall: typing values where formulas are required",
+        "Pitfall: merged cells breaking sort and filter"
+      ],
+      "notes": "Formula writing is practical-exam core. Revise cell references and three essential functions. Practice reading a filtered register."
+    },
+    {
+      "id": "u10",
+      "layout": "closing",
+      "title": "Unit 3 — Next steps",
+      "bullets": [
+        "Complete unit labs",
+        "Attempt unit Q&A bank",
+        "Submit unit assignment",
+        "Revise using revision sheet"
+      ],
+      "notes": "Point students to materials/labs and materials/qa for this unit."
+    }
+  ]
+}

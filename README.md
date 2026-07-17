@@ -8,9 +8,11 @@
 
 | Folder | What it stores | Open |
 |---|---|---|
-| [`notes/`](./notes/) | Teaching outline + student notes | [Open notes](./notes/) |
+| [`notes/`](./notes/) | Teaching outline + student notes (**md + txt + docx**) | [Open notes](./notes/) |
 | [`slides/`](./slides/) | PPTX + slide JSON | [Open slides](./slides/) |
-| [`materials/`](./materials/) | Syllabus, Q&A, assignments, labs, revision aids | [Open materials](./materials/) |
+| [`materials/`](./materials/) | Syllabus, Q&A, assignments, labs, revision aids (**md + txt + docx**) | [Open materials](./materials/) |
+
+Notes and materials are published in three formats: Markdown (source), TXT (easy review), and DOCX (Word).
 
 ## Branches (repo policy)
 

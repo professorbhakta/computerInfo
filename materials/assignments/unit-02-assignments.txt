@@ -1,0 +1,78 @@
+Computer Information — Unit 2 Assignments
+=========================================
+
+Parul University · BA-LLB · Computer Information · Prof. Shivam Bhakta  
+Aligned to Unit-2: MS Word for Legal Documentation
+
+---
+
+Assignment 1 — Professional Notice Shell (Individual) — 10 marks
+----------------------------------------------------------------
+
+Create a classroom dummy Legal Notice in MS Word (A4):
+
+1. Sender block, date, recipient block, bold subject  
+2. At least 6 numbered paragraphs (dummy facts)  
+3. Clear demand + timeline paragraph  
+4. Header label: CLASSROOM DRAFT — NOT FOR FILING  
+5. Footer with page number and enrolment no.  
+6. Save .docx + export .pdf  
+7. Professional file names for both
+
+Submit both files + 1/2-page note listing Word features used.
+
+---
+
+Assignment 2 — Track Changes Collaboration (Pair) — 10 marks
+------------------------------------------------------------
+
+1. Partner A drafts a 1-page dummy affidavit body (numbered paragraphs).  
+2. Partner B edits with Track Changes ON and adds at least 3 comments.  
+3. Partner A responds: accept/reject with rationale (short log table).  
+4. Submit: marked DOCX + clean DOCX + PDF + edit-log table.
+
+---
+
+Assignment 3 — Tables + Chronology (Individual) — 10 marks
+----------------------------------------------------------
+
+Prepare a petition working note containing:
+
+1. Cause-title style heading (dummy)  
+2. “List of Dates” table (min 6 rows)  
+3. Annexure Index table (min 4 annexures)  
+4. Consistent fonts and page number  
+5. One-page reflection: why tables improve legal clarity
+
+---
+
+Assignment 4 — Mail Merge Mini Lab (Individual/Pair) — 15 marks
+---------------------------------------------------------------
+
+1. Create Excel data source with 5 recipients (Name, Address, Amount, DueDate).  
+2. Create Word demand-reminder template with merge fields.  
+3. Preview and merge to individual letters (or combined document).  
+4. Write a risk note (150–200 words): wrong-amount risk, confidentiality, senior checking protocol.  
+5. Submit: Excel + Word template + merged output sample + risk note.
+
+---
+
+Assignment 5 — Agreement Starter with Styles/TOC (Optional CIA) — 10 marks
+------------------------------------------------------------------------
+
+Create a 3–4 page dummy agreement using Heading styles, at least one schedule table, signature blocks, and an automatic Table of Contents. Export PDF.
+
+---
+
+Submission Checklist
+--------------------
+
+- [ ] Name / enrolment / semester on first page or cover note  
+- [ ] Unit 2 + assignment number in file names  
+- [ ] Dummy facts only (no real confidential client data)  
+- [ ] DOCX + PDF where required  
+- [ ] Feature list / reflection included
+
+---
+
+Prof. Shivam Bhakta · Parul University · Computer Information

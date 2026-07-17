@@ -1,0 +1,139 @@
+Computer Information — Unit 1 Practice Pack
+===========================================
+
+Parul University · BA-LLB · Prof. Shivam Bhakta  
+Companion to Unit-1 notes on the notes branch.
+
+---
+
+1. Short Answer Bank (Practice)
+-------------------------------
+
+Write answers in your own words. Suggested time: 45–60 minutes.
+
+1. Define computer. List any four characteristics with legal workplace examples.
+2. Differentiate data and information using a court-fee / client-billing example.
+3. Draw the IPO cycle and explain each stage.
+4. Explain CPU and name ALU, CU, and registers in one paragraph.
+5. Distinguish RAM and ROM.
+6. Define Operating System. State four functions.
+7. Differentiate system software and application software with two examples each.
+8. Define Internet. Differentiate Internet and WWW.
+9. Expand: URL, ISP, IP, DNS.
+10. Write a short note on professional email etiquette for law interns.
+11. Define Artificial Intelligence. Explain Narrow AI.
+12. List five applications of AI in the legal profession.
+13. What is AI hallucination? Give one legal risk example.
+14. Explain OCR and why chambers need it.
+15. Write four rules for responsible AI use by BA-LLB students.
+
+---
+
+2. Long Answer Bank
+-------------------
+
+1. Explain components of a computer system with diagram and law-office examples.
+2. Discuss Operating Systems and file/security habits needed in legal practice.
+3. Explain Internet basics and responsible online legal research.
+4. Discuss digital communication tools, etiquette, and evidentiary caution.
+5. Trace a brief history of AI and its relevance to legal education today.
+6. Discuss applications, limitations, and future scope of AI in law.
+7. Critically examine: “AI will assist lawyers, not replace them.”
+
+---
+
+3. MCQ Set A (CIA Style)
+------------------------
+
+1. Which device is primarily used for digitising signed vakalatnama papers?  
+   a) Speaker  b) Scanner  c) Projector  d) GPU  
+
+2. Which memory loses content when power is switched off?  
+   a) ROM  b) SSD  c) RAM  d) HDD  
+
+3. MS Word is an example of:  
+   a) OS  b) Application software  c) Firmware  d) Hardware  
+
+4. The manager between user and hardware is called:  
+   a) Browser  b) Compiler  c) Operating System  d) Search engine  
+
+5. WWW is:  
+   a) Same as Internet  b) A service on the Internet  c) An OS  d) A CPU part  
+
+6. Which is synchronous communication?  
+   a) Email  b) Video conference hearing  c) Letter by post  d) Draft saved offline  
+
+7. Dartmouth Conference is associated with:  
+   a) Invention of email  b) Birth of AI as a field (1956)  c) First smartphone  d) MS Excel  
+
+8. A major danger of generative AI for petitions is:  
+   a) Faster printing  b) Fake/hallucinated citations  c) Better margins  d) Cloud storage  
+
+9. OCR helps to:  
+   a) Animate slides  b) Convert image-text to editable text  c) Cool the CPU  d) Encrypt email  
+
+10. Best professional file name:  
+    a) new.docx  b) finalfinal.docx  c) 2024-07-13_Notice_Patel_Draft-v2.docx  d) doc.docx
+
+Answer Key (Set A): 1-b, 2-c, 3-b, 4-c, 5-b, 6-b, 7-b, 8-b, 9-b, 10-c
+
+---
+
+4. MCQ Set B (Challenge)
+------------------------
+
+1. ALU stands for:  
+   a) Advanced Logic Utility  b) Arithmetic Logic Unit  c) Automated Legal Unit  d) Application Layer Utility  
+
+2. Which statement is correct?  
+   a) Internet and WWW are identical  b) WWW is broader than Internet  
+   c) Internet is broader infrastructure; WWW is one service  d) WWW is an OS  
+
+3. Which is system software?  
+   a) PowerPoint  b) Chrome  c) Windows  d) Manupatra website  
+
+4. Narrow AI is:  
+   a) Human-level general intelligence  b) Task-specific AI  c) Superintelligence  d) Non-digital intelligence  
+
+5. Leaving a confidential draft unlocked on a shared PC mainly violates:  
+   a) Only fashion sense  b) Professional confidentiality / security hygiene  
+   c) Printer settings  d) CPU speed rules  
+
+6. HTTPS is preferred because it generally indicates:  
+   a) Faster downloads always  b) More secure transport for sensitive sessions  
+   c) Free printing  d) Offline mode  
+
+7. Which is NOT a typical AI legal use?  
+   a) Document review aid  b) Judgment summarisation aid  
+   c) Replacing advocate’s ethical responsibility  d) Research assistance  
+
+8. Deep Blue (1997) is remembered for:  
+   a) Inventing WWW  b) Beating a chess champion  c) Creating MS Word  d) Starting email  
+
+9. A junior pastes a full client agreement into a public chatbot. Main issue?  
+   a) Font size  b) Confidentiality / data exposure risk  c) Slide theme  d) Printer jam  
+
+10. IPO cycle means:  
+    a) Internet Protocol Output  b) Input–Process–Output  c) Internal Petition Order  d) Intelligent Program Object
+
+Answer Key (Set B): 1-b, 2-c, 3-c, 4-b, 5-b, 6-b, 7-c, 8-b, 9-b, 10-b
+
+---
+
+5. Viva / Oral Rapid Fire
+-------------------------
+
+1. What is hardware?  
+2. What is software?  
+3. One example of input device in court registry.  
+4. One example of output device in moot court.  
+5. Why is PDF popular for final sharing?  
+6. Name two mobile OS.  
+7. What does GUI mean?  
+8. Define protocol in one line.  
+9. What is generative AI?  
+10. Give one future role created by legal-tech.
+
+---
+
+End of Unit-1 Q&A pack. Use with notes from the notes branch.

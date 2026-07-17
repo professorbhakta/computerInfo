@@ -1,0 +1,57 @@
+Computer Information — Glossary (v1.0)
+======================================
+
+Subject: Computer Information | Audience: Law students  
+Coverage: Units T1–T5 | Terms: 30 (alphabetical)
+
+---
+
+Term | Definition
+Affidavit | A sworn written statement of facts made by a deponent under oath or affirmation, used as evidence in legal proceedings; typically structured with numbered paragraphs and a verification clause.
+Animation (PowerPoint) | A slide effect applied to individual objects (bullets, images) to control how content appears during a presentation; should be used sparingly in legal decks.
+Application Software | Programs that perform user tasks (e.g., MS Word, Excel, browser) as distinct from system software that manages the computer.
+Artificial Intelligence (AI) | Field of computing focused on systems that perform tasks requiring human-like perception, reasoning, learning, or language—used in legal research, analytics, and drafting support.
+AutoFilter | An Excel feature that displays only rows meeting specified criteria while leaving the full dataset intact.
+Bias (AI) | Systematic skew in AI outputs arising from unrepresentative training data, flawed design, or proxy discrimination—relevant to sentencing analytics and document review.
+Billing Sheet | A spreadsheet recording billable hours, rates, invoices, and payment status for client matters in a law chamber.
+Browser | Application software (e.g., Chrome, Edge) used to access websites, court portals, and online legal databases via the internet.
+Case Tracking | Systematic recording of case identifiers, status, hearings, and assignments—often implemented in Excel for small chambers.
+Chart (Excel) | A visual representation (bar, pie, line) of numeric data such as case load or outstanding fees.
+Cloud Storage | Remote storage of files on internet servers (e.g., institutional OneDrive/Google Drive) enabling access and backup; raises confidentiality considerations for legal work.
+Computer | An electronic device that accepts data, processes it under instructions, and produces information—supporting drafting, research, and communication in legal practice.
+Conditional Formatting | Excel rules that change cell appearance based on values (e.g., highlight urgent hearing dates).
+COUNTIF | An Excel function that counts cells meeting a single criterion (e.g., number of unpaid invoices).
+Digital Communication | Exchange of information through electronic channels including email, video conferencing, and messaging—standard in modern legal practice.
+Formula (Excel) | An equation beginning with = that calculates values from cell references (e.g., =E2*F2 for fees).
+Generative AI | AI that creates new text, images, or other content from learned patterns—used for drafting and summarization but prone to hallucination.
+Hallucination | Confident but false AI-generated content, such as invented case citations or statutes—must be verified before professional use.
+Hardware | Physical components of a computer system: CPU, memory, storage, input/output devices, and networking equipment.
+Header and Footer | Repeated top and bottom areas on Word pages carrying document title, case reference, or page numbers for filing consistency.
+Human-in-the-Loop | Practice requiring qualified human review, correction, and accountability for AI-assisted legal work before client or court reliance.
+IF Function | Excel logic function returning one value if a condition is true and another if false—useful for urgency flags or payment follow-up labels.
+Input–Process–Output (IPO) | Model describing how computers accept data (input), manipulate it (process), and deliver results (output), with storage supporting each stage.
+Internet | Global network of interconnected systems enabling access to legal databases, e-government services, and professional communication.
+Legal Notice | A formal written communication demanding action or informing of a legal position before further steps—drafted with precise facts and relief.
+Mail Merge | MS Word feature combining a template with a data source (e.g., Excel) to produce personalized bulk documents such as hearing notices.
+Machine Learning | AI approach where systems learn patterns from data rather than relying solely on hand-coded rules—underpins many legal analytics tools.
+Operating System (OS) | System software (e.g., Windows, Linux) managing hardware, files, security, and running applications.
+Peopleware | Human users, administrators, and organizational policies that interact with hardware and software in a computing environment.
+SmartArt | PowerPoint/Word graphical layouts (timelines, hierarchies, processes) for visualizing legal procedures or court structures.
+Software | Programs and instructions that tell hardware what to do—including OS, office suites, and legal research platforms.
+Sort (Excel) | Rearranging rows by values in one or more columns (e.g., hearings by date).
+Speaker Notes | PowerPoint notes pane text supporting oral advocacy—not visible to audience during slideshow.
+SUM | Excel function adding a range of numeric cells—common in billing totals.
+Theme (PowerPoint) | Predefined design set (colors, fonts, backgrounds) ensuring visual consistency across slides.
+Track Changes | Word revision feature recording edits with author identity for collaborative legal drafting and senior review.
+Transition | Slide-to-slide visual effect in PowerPoint; best limited to section changes in professional presentations.
+VLOOKUP / XLOOKUP | Excel functions searching a table for a value and returning related data—useful for linking client IDs to names or rates.
+Workbook | An Excel file (.xlsx) containing one or more worksheets.
+Worksheet | A single tab/sheet within an Excel workbook where data and formulas are entered.
+
+---
+
+Note: 40 terms listed (requirement: 25+).
+
+---
+
+End of glossary — v1.0

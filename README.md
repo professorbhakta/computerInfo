@@ -15,9 +15,9 @@ This repository keeps **only two branches** for easy tracking.
 
 | Folder | What it stores | Open |
 |---|---|---|
-| `notes/` | Outline + student notes | [Open notes](https://github.com/professorbhakta/computerInfo/tree/workspace/notes) |
+| `notes/` | Outline + student notes (**md + txt + docx**) | [Open notes](https://github.com/professorbhakta/computerInfo/tree/workspace/notes) |
 | `slides/` | PPTX + slide JSON | [Open slides](https://github.com/professorbhakta/computerInfo/tree/workspace/slides) |
-| `materials/` | Syllabus, Q&A, assignments, labs, revision aids | [Open materials](https://github.com/professorbhakta/computerInfo/tree/workspace/materials) |
+| `materials/` | Syllabus, Q&A, assignments, labs, revision aids (**md + txt + docx**) | [Open materials](https://github.com/professorbhakta/computerInfo/tree/workspace/materials) |
 
 ## Quick links
 

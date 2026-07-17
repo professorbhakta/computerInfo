@@ -1,90 +1,35 @@
-# Academic Content Factory
+# Computer Information
 
-A **subject-agnostic**, multi-agent system for producing high-quality teaching materials from any academic subject and scope.
+Course materials for **Computer Information** (law students).
 
-Give it a subject + scope → get a structured outline, student notes, a real PowerPoint deck, and supplementary materials—with consistency checks, versioning, and Git integration.
+This repository keeps **only two branches** for easy tracking.
 
-## What it produces
+## Branches
 
-| Output | Description |
-|---|---|
-| Teaching outline | Sequenced topics + **Bloom’s Taxonomy** learning objectives |
-| Student notes | Study-ready Markdown aligned to the outline |
-| Slide deck | `slides.json` source + generated `.pptx` |
-| Materials pack | Assignments, tiered question bank, lab/workshop exercises |
-| Optional | Quizzes, glossary, mind map |
-| QA report | Consistency verdict before release |
+| Branch | Purpose | Open on GitHub |
+|---|---|---|
+| [`main`](https://github.com/professorbhakta/computerInfo/tree/main) | Index / links only (this file) | You are here |
+| [`workspace`](https://github.com/professorbhakta/computerInfo/tree/workspace) | All teaching files | [Open workspace](https://github.com/professorbhakta/computerInfo/tree/workspace) |
 
-## Agents
+## Content folders (on `workspace`)
 
-Defined in `.cursor/agents/`:
+| Folder | What it stores | Open |
+|---|---|---|
+| `notes/` | Outline + student notes | [Open notes](https://github.com/professorbhakta/computerInfo/tree/workspace/notes) |
+| `slides/` | PPTX + slide JSON | [Open slides](https://github.com/professorbhakta/computerInfo/tree/workspace/slides) |
+| `materials/` | Syllabus, Q&A, assignments, labs, revision aids | [Open materials](https://github.com/professorbhakta/computerInfo/tree/workspace/materials) |
 
-| Agent | Responsibility |
-|---|---|
-| **Main Orchestrator** | Entry point: planning, gates, retries, versioning, Git |
-| **Curriculum Architect** | Outline + Bloom objectives |
-| **Notes Writer** | Student notes |
-| **PPT Builder** | Slide JSON + PPTX build |
-| **Material Generator** | Assignments, questions, labs, optionals |
-| **QA Reviewer** | Cross-artifact consistency |
+## Quick links
 
-See [AGENTS.md](./AGENTS.md) for the pipeline and contracts.
+- Full-course notes: [`notes/full-course-notes.md`](https://github.com/professorbhakta/computerInfo/blob/workspace/notes/full-course-notes.md)
+- Full-course slides: [`slides/course/computer-info-full-course.pptx`](https://github.com/professorbhakta/computerInfo/blob/workspace/slides/course/computer-info-full-course.pptx)
+- Syllabus: [`materials/syllabus/`](https://github.com/professorbhakta/computerInfo/tree/workspace/materials/syllabus)
+- Q&A bank: [`materials/qa/full-course-qa-bank.md`](https://github.com/professorbhakta/computerInfo/blob/workspace/materials/qa/full-course-qa-bank.md)
+- Assignments: [`materials/assignments/`](https://github.com/professorbhakta/computerInfo/tree/workspace/materials/assignments)
+- Labs: [`materials/labs/full-course-labs.md`](https://github.com/professorbhakta/computerInfo/blob/workspace/materials/labs/full-course-labs.md)
 
-## Repository layout
+## How we work
 
-```
-.
-├── AGENTS.md
-├── PROJECT_TODOS.md
-├── README.md
-├── .gitignore
-├── .cursor/agents/          # Specialist agent prompts
-├── scripts/build_pptx.py    # JSON → PPTX builder (themes + recovery)
-└── subjects/
-    └── _template/           # Copy this layout for new subjects
-```
-
-## Quick start
-
-1. Open this repo in Cursor.
-2. Invoke the **Main Orchestrator** with a request such as:
-
-   > Subject: Intro to Microeconomics. Audience: first-year undergrad. Scope: 4-hour unit on supply & demand. Include glossary.
-
-3. The orchestrator will create `subjects/<slug>/vN/`, run the agent pipeline, build PPTX, run QA, and commit/push per the Git workflow.
-
-### Build a PPTX manually
-
-```bash
-pip install python-pptx
-python scripts/build_pptx.py \
-  --input subjects/<slug>/vN/slides.json \
-  --output subjects/<slug>/vN/slides.pptx \
-  --theme academic-light \
-  --recover
-```
-
-Themes: `academic-light`, `academic-dark`, `minimal-mono`, `campus-blue`.
-
-## Versioning
-
-- Each release lives in `subjects/<slug>/vN/`.
-- Content changes create `vN+1` (released versions are not overwritten).
-- `subjects/<slug>/CURRENT` points at the active version.
-- `manifest.json` tracks status: `draft` → `qa` → `released`.
-
-## Operations checklist
-
-Use [PROJECT_TODOS.md](./PROJECT_TODOS.md) for every production run.
-
-## Design principles
-
-- Completely **subject-agnostic** (law, STEM, humanities, business, …)
-- Bloom-tagged objectives end-to-end
-- Automatic consistency checking before release
-- Robust PPTX generation with validation and recovery
-- Full Git workflow owned by the Main Orchestrator
-
-## License / use
-
-Teaching materials generated into `subjects/` belong to the course authors who run the factory. The factory scaffolding in this repository is reusable across courses and institutions.
+1. Switch to / work on the **`workspace`** branch.  
+2. Put notes in `notes/`, decks in `slides/`, and practice files in `materials/`.  
+3. Keep **`main`** as this index only.

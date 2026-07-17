@@ -1,0 +1,391 @@
+# Computer Information — Laboratory Manual (v1.0)
+
+**Subject:** Computer Information | **Audience:** Law students  
+**Lab duration:** 1 hour/week (extend as needed)  
+**Objectives:** Obj 1, 3, 4, 5, 6, 7, 8, 9  
+**Practicals:** 8 (aligned to official syllabus)
+
+---
+
+## Lab 1 — Basic Computer Operations, File Management, Internet & Legal Research Databases
+
+**Unit:** T1 | **Objectives:** Obj 1, 9 | **Duration:** 2 hours (recommended)
+
+### Objectives
+
+- Perform fundamental file and folder operations on a Windows/Linux lab system.
+- Navigate the internet safely and locate authoritative legal resources.
+- Conduct a structured search in at least one online legal database or official court portal.
+
+### Setup
+
+- Lab PC with internet access and standard browser (Chrome/Edge/Firefox).
+- Institutional login if required; notepad for recording search strategy.
+- Access to at least one legal database (e.g., Indian Kanoon, official court website, SCC Online trial, or instructor-provided portal).
+
+### Procedure
+
+1. **File management**
+   - Create folder: `CI_Lab01_RollNo_LastName`.
+   - Inside, create subfolders: `Drafts`, `Research`, `Submissions`.
+   - Create a text file `readme.txt` describing folder purpose; rename and move it to `Submissions`.
+   - Copy a sample PDF judgment into `Research`; note file size and path.
+
+2. **System orientation**
+   - Identify: CPU, monitor, keyboard, storage drive, and OS version (Settings → System → About).
+   - Open Task Manager or system monitor; note RAM usage with browser open (links to hardware/software understanding).
+
+3. **Internet & communication**
+   - Configure bookmark for your university email or webmail.
+   - Compose a **draft** professional email to a senior advocate requesting a meeting—do not send; save as PDF or screenshot for checkpoint.
+
+4. **Legal research**
+   - Choose a reported case on a syllabus-relevant topic (e.g., right to privacy, bail).
+   - Search using **case name** and **keyword** strategies.
+   - Record: database used, search string, citation, court, year, and one-sentence holding.
+   - Download or save PDF to `Research`.
+
+### Expected Outcome
+
+- Organized folder hierarchy with readme and saved judgment PDF.
+- Written research log (half page) with citation and holding.
+- Draft professional email demonstrating digital communication norms.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Folder structure created correctly | |
+| 2 | File copy/rename/move demonstrated | |
+| 3 | OS/hardware identification completed | |
+| 4 | Legal database search with valid citation | |
+| 5 | Research log submitted | |
+
+---
+
+## Lab 2 — Legal Documents in MS Word: Notice, Affidavit, Agreement
+
+**Unit:** T2 | **Objectives:** Obj 3, 4, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Create three legal document types using MS Word conventions.
+- Apply page layout, styles, and tables appropriate to filing practice.
+
+### Setup
+
+- MS Word (desktop or web per lab policy).
+- Hypothetical fact pattern provided by instructor (property notice, tenant dispute, or consumer complaint).
+
+### Procedure
+
+1. **Notice**
+   - New document; set margins (e.g., 1" or as per local filing norm).
+   - Add header: advocate name and chamber address; footer: page number.
+   - Draft notice with styles: Heading 1 for title, numbered paragraphs for facts and demand.
+   - Save as `Notice_RollNo.docx`.
+
+2. **Affidavit**
+   - New section or document; caption matching notice parties.
+   - First-person numbered paragraphs; verification block; space for oath commissioner.
+   - Save as `Affidavit_RollNo.docx`.
+
+3. **Agreement**
+   - Short two-party agreement (consultancy or retainer).
+   - Insert **table** for payment milestones (date, amount, description).
+   - Definitions clause and termination clause in numbered format.
+   - Save as `Agreement_RollNo.docx`.
+
+### Expected Outcome
+
+- Three `.docx` files with consistent professional formatting.
+- Each document structurally recognizable for its type.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Notice with header/footer and numbered body | |
+| 2 | Affidavit with verification clause | |
+| 3 | Agreement with table and clauses | |
+| 4 | Styles used (not only manual bold) | |
+| 5 | All files saved in Lab 1 folder | |
+
+---
+
+## Lab 3 — Track Changes and Comments in Legal Drafting
+
+**Unit:** T2 | **Objectives:** Obj 3, 4, 9 | **Duration:** 1–2 hours
+
+### Objectives
+
+- Enable and interpret Track Changes for collaborative review.
+- Insert, reply to, and resolve comments simulating senior-junior workflow.
+
+### Setup
+
+- Open `Agreement_RollNo.docx` from Lab 2 (or instructor template).
+
+### Procedure
+
+1. Turn on **Review → Track Changes**.
+2. Make at least **five edits**: two insertions, one deletion, one formatting change, one clause renumbering.
+3. Add **three comments**: e.g., "Confirm client instruction," "Verify stamp duty," "Soften penalty clause."
+4. Switch to **Simple Markup** vs **All Markup** views; observe difference.
+5. Partner swap (or instructor role-play): second reviewer adds one comment reply and **accepts** two changes, **rejects** one.
+6. Save final versions: `Agreement_Tracked.docx` and `Agreement_Accepted.docx` (after selective accept).
+
+### Expected Outcome
+
+- Document showing visible revision history and comment thread.
+- Student can explain accept/reject impact on final text.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Track Changes enabled throughout editing | |
+| 2 | ≥5 tracked edits visible | |
+| 3 | ≥3 comments with professional text | |
+| 4 | Accept/reject demonstrated | |
+| 5 | Both file versions saved | |
+
+---
+
+## Lab 4 — Case Data Sheets in Excel: Formulas and Filters
+
+**Unit:** T3 | **Objectives:** Obj 5, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Build a case register workbook with structured data entry.
+- Apply formulas, sorting, and filters for case management.
+
+### Setup
+
+- MS Excel; starter CSV optional (instructor may provide 10 sample rows).
+
+### Procedure
+
+1. Create workbook `Case_Register_RollNo.xlsx`, sheet `Cases`.
+2. Columns: Case ID, Client, Court, Matter Type, Status, Filing Date, Next Hearing, Days to Hearing (formula).
+3. Enter **15 fictional cases**.
+4. **Formulas:**
+   - `Days to Hearing` = Next Hearing − TODAY().
+   - Status summary: `=COUNTIF(E:E,"Pending")` (adjust range).
+5. **Formatting:** header row bold; freeze top row; date format for dates.
+6. **Sort** by Next Hearing ascending.
+7. **AutoFilter:** show only Pending matters in District Court.
+8. Optional: `=IF` flag "Urgent" when Days to Hearing ≤ 7.
+
+### Expected Outcome
+
+- Functional case sheet with dynamic days calculation and filtered views.
+- Printed or PDF snapshot of filtered results.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | 15 rows with consistent columns | |
+| 2 | Date and COUNTIF formulas work | |
+| 3 | Sort applied correctly | |
+| 4 | Filter demonstrated with screenshot | |
+| 5 | Freeze panes on header | |
+
+---
+
+## Lab 5 — Billing and Client Record Sheets in Excel
+
+**Unit:** T3 | **Objectives:** Obj 5, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Design client records and billing worksheets linked by Client ID.
+- Calculate fees and outstanding amounts using Excel functions.
+
+### Setup
+
+- Continue workbook or new file `Chamber_Billing_RollNo.xlsx`.
+
+### Procedure
+
+1. Sheet `Clients`: Client ID, Name, Contact, Matter, Retainer Date.
+2. Sheet `Billing`: Invoice No, Client ID, Date, Description, Hours, Rate, **Amount** (=Hours×Rate), Paid (Y/N).
+3. Enter **10 clients** and **15 invoice lines**.
+4. Summary section:
+   - Total billed: `=SUM(G:G)` (Amount column).
+   - Unpaid count: `=COUNTIF(H:H,"N")`.
+   - Total outstanding: `=SUMIF(H:H,"N",G:G)`.
+5. **Sort** billing by Amount descending.
+6. **Chart:** top 5 clients by billed amount (bar chart).
+7. Discuss **data privacy**: fictional data only; password-protect file if policy requires.
+
+### Expected Outcome
+
+- Two-sheet workbook with accurate billing math and summary metrics.
+- Chart illustrating fee distribution.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Client and billing sheets linked by ID | |
+| 2 | Amount formula not typed manually | |
+| 3 | SUMIF/COUNTIF summaries correct | |
+| 4 | Chart created and labeled | |
+| 5 | Fictional data only confirmed | |
+
+---
+
+## Lab 6 — Moot Court PPT & Animated Legal Awareness Presentation
+
+**Unit:** T4 | **Objectives:** Obj 6, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Build an advocacy-oriented moot slide deck.
+- Create a second short deck demonstrating restrained animation for legal awareness.
+
+### Setup
+
+- MS PowerPoint; moot problem or awareness topic assigned.
+
+### Procedure
+
+**Part A — Moot deck (8 slides minimum)**
+
+1. Title slide (case name, forum, team).
+2. Facts (bullet clarity; no full paragraphs).
+3. Issues presented.
+4. Arguments split across 2–3 slides.
+5. Authorities (SmartArt: hierarchy of courts or precedent chain).
+6. Prayer / relief sought.
+7. Speaker notes on argument slides.
+
+**Part B — Awareness mini-deck (5 slides)**
+
+1. Topic title (e.g., "Filing an FIR: What Citizens Should Know").
+2. Process SmartArt (steps to report).
+3. One chart (illustrative statistics—source cited).
+4. Apply **one transition** between sections; **two animations** total.
+5. Save as `Moot_RollNo.pptx` and `Awareness_RollNo.pptx`.
+
+### Expected Outcome
+
+- Two presentations demonstrating structure, SmartArt/chart, and controlled motion.
+- Present 2-minute excerpt to class or record voice-over if required.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Moot deck ≥8 slides with notes | |
+| 2 | SmartArt used in moot or awareness deck | |
+| 3 | Chart with source note | |
+| 4 | Animations limited and purposeful | |
+| 5 | Oral delivery or recording completed | |
+
+---
+
+## Lab 7 — AI Tools for Legal Research & Summarization; Ethical Analysis
+
+**Unit:** T5 | **Objectives:** Obj 7, 8, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Use an approved AI tool for legal research or summarization on a **public** topic.
+- Evaluate output for ethics, privacy, bias, and accuracy.
+
+### Setup
+
+- Approved AI platform (institutional account or instructor sandbox).
+- Public domain judgment or statute excerpt—**no client confidential data**.
+
+### Procedure
+
+1. Select topic (e.g., summary of *Vishaka* guidelines or a cybercrime provision).
+2. Write a **precise prompt** (jurisdiction, length, format requested).
+3. Save AI output to `AI_Summary_RollNo.docx`.
+4. **Verify** against official source: highlight one correct point and one error or omission.
+5. **Ethical worksheet** (half page):
+   - What data you excluded from the prompt.
+   - Bias or one-sided framing detected?
+   - Hallucinated citation? Y/N with example.
+   - Would you attach this to a court filing without edit? Why not?
+6. Rewrite one paragraph in your own words after verification (**human-in-the-loop**).
+
+### Expected Outcome
+
+- Prompt, AI output, verification notes, and ethical worksheet.
+- Corrected human-authored paragraph.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Prompt documented | |
+| 2 | Primary source comparison completed | |
+| 3 | Ethical worksheet all sections filled | |
+| 4 | No confidential data used | |
+| 5 | Human rewrite submitted | |
+
+---
+
+## Lab 8 — Comparative Study: Human Drafting vs AI-Assisted Drafting
+
+**Unit:** T5 | **Objectives:** Obj 7, 8, 9 | **Duration:** 2 hours
+
+### Objectives
+
+- Produce parallel drafts of the same legal text (human-only vs AI-assisted).
+- Critically compare fitness for professional use.
+
+### Setup
+
+- Word processor; approved generative AI tool.
+- Scenario: short client advice letter or bail application paragraph—**fictional parties only**.
+
+### Procedure
+
+1. **Human draft (30 min):** Write 200–300 words advising a fictional client on a bail eligibility question. No AI.
+2. **AI draft (20 min):** Prompt AI with same facts (redacted generic names); paste output.
+3. **Comparison matrix** (table in Word):
+
+   | Criterion | Human | AI | Winner & why |
+   |-----------|-------|-----|--------------|
+   | Accuracy | | | |
+   | Citation integrity | | | |
+   | Clarity for client | | | |
+   | Tone/professionalism | | | |
+   | Time spent | | | |
+
+4. **Evaluate (Obj 8):** Identify risks if AI draft filed without review.
+5. Draft **5 rules** for your future practice (human-in-the-loop, verification, confidentiality, disclosure, limitation acknowledgment).
+
+### Expected Outcome
+
+- Side-by-side drafts with completed comparison matrix and practice rules.
+- Oral 3-minute presentation of findings optional.
+
+### Checkpoints
+
+| # | Checkpoint | ✓ |
+|---|------------|---|
+| 1 | Human draft original work | |
+| 2 | AI prompt and output preserved | |
+| 3 | Comparison matrix complete | |
+| 4 | Risk analysis paragraph | |
+| 5 | Five responsible-use rules listed | |
+
+---
+
+## Lab Safety & Professional Conduct
+
+- Log off shared machines; do not leave client materials on desktop.
+- Follow institutional AI and data-use policies at all times.
+- Report malfunctioning equipment to the lab instructor promptly.
+
+---
+
+*End of laboratory manual — v1.0*

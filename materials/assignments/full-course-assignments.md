@@ -1,0 +1,197 @@
+# Computer Information — Assignments (v1.0)
+
+**Subject:** Computer Information | **Audience:** Law students  
+**Assessment type:** CIA (Continuous Internal Assessment)  
+**Objectives addressed:** Obj 3, 4, 5, 6, 7, 8, 9
+
+---
+
+## Overview
+
+| Assignment | Topic focus | Primary tools | Objectives | Suggested weight |
+|------------|-------------|---------------|------------|------------------|
+| A1 | Legal documentation in MS Word | Word | 3, 4, 9 | 25% |
+| A2 | Legal data management in MS Excel | Excel | 5, 9 | 25% |
+| A3 | Moot / seminar presentation | PowerPoint | 6, 9 | 25% |
+| A4 | AI ethics and comparative drafting | AI tools + Word | 7, 8, 9 | 25% |
+
+**Submission format:** PDF where specified; native files (.docx, .xlsx, .pptx) where editing must be demonstrated. Filename convention: `RollNo_AssignmentNo_LastName.ext`
+
+---
+
+## Assignment A1 — Legal Documentation Portfolio (MS Word)
+
+**Title:** Drafting and Formatting Legal Documents with Professional Review Workflow  
+**Unit alignment:** T2 | **Objectives:** Obj 3, 4, 9  
+**Estimated effort:** 4–6 hours  
+**Deliverables:** One `.docx` portfolio containing three documents (separate sections or files in a zip if preferred by instructor)
+
+### Task
+
+1. **Legal Notice** (1–2 pages): Draft a notice on a hypothetical property or consumer dispute. Use proper heading, numbered paragraphs, demand clause, and advocate signature block.
+2. **Affidavit** (1 page): Draft an affidavit in support of the notice, including verification and attestation placeholders.
+3. **Simple Agreement** (2–3 pages): Prepare a short service/consultancy agreement between a client and an advocate with definitions, scope, fees, confidentiality, and termination clauses.
+
+### Technical requirements (Word)
+
+- Apply **styles** (Heading 1, Heading 2, Normal) — no manual font spamming.
+- **Headers/footers** with document title and page numbers.
+- At least one **table** (e.g., fee schedule or timeline).
+- **References/citations** section with at least two sources in a consistent format (e.g., footnotes or bibliography).
+- On the agreement only: enable **Track Changes** and make at least five substantive edits; add two **comments** explaining revisions (simulate senior review).
+
+### Rubric (25 marks)
+
+| Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks |
+|-----------|---------------|------------|-------------------------|-------|
+| Legal structure & clarity (Obj 4) | All three doc types correctly structured; legally coherent facts | Minor structural gaps | Missing sections or incoherent | /5 |
+| Formatting & layout (Obj 3) | Consistent styles, margins, headers/footers, professional appearance | Minor inconsistencies | Mostly manual formatting | /5 |
+| Tables & references (Obj 3) | Table and citations correctly formatted and relevant | Present but weak formatting | Missing or incorrect | /5 |
+| Track changes & comments (Obj 3) | Clear revision history; comments show professional judgment | Present but superficial | Missing or improper use | /5 |
+| File hygiene & submission (Obj 9) | Correct naming, complete portfolio, no corruption | Minor submission issues | Incomplete | /5 |
+
+---
+
+## Assignment A2 — Chambers Case Register & Billing (MS Excel)
+
+**Title:** Case Tracking, Client Records, and Billing with Formulas and Visualization  
+**Unit alignment:** T3 | **Objectives:** Obj 5, 9  
+**Estimated effort:** 4–6 hours  
+**Deliverables:** One `.xlsx` workbook with three worksheets
+
+### Task
+
+Create a workbook for a fictional law chamber with **minimum 15 case rows** and **10 client billing rows** (may overlap by Client ID).
+
+#### Worksheet 1: `Case_Register`
+
+Columns (at minimum): Case ID, Client Name, Court, Matter Type, Status (Pending/Disposed), Hearing Date, Advocate Assigned.
+
+- Use **data validation** for Status and Matter Type.
+- **Conditional formatting** to highlight hearings within 14 days.
+- **FILTER** or AutoFilter demonstration: include a screenshot sheet or instructions tab showing filtered "Pending" High Court matters (instructor may observe live).
+
+#### Worksheet 2: `Client_Billing`
+
+Columns: Invoice ID, Client ID, Client Name, Hours, Rate, Amount, Payment Status (Paid/Unpaid).
+
+- **Formulas:** Amount = Hours × Rate; **SUM** total billed; **COUNTIF** unpaid invoices.
+- **IF** formula to label "Follow-up" when unpaid and Amount > 5000.
+
+#### Worksheet 3: `Dashboard`
+
+- **Chart** (column or pie): cases by Status or fees by Matter Type.
+- Summary cells linked to formulas (total cases, total outstanding fees).
+
+### Privacy note
+
+Use **fictional names and matter details only**. Do not use real client data.
+
+### Rubric (25 marks)
+
+| Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks |
+|-----------|---------------|------------|-------------------------|-------|
+| Data structure (Obj 5) | Logical columns; no merged data cells; 15+ cases | Minor schema issues | Incomplete dataset | /5 |
+| Formulas & functions (Obj 5) | SUM, IF, COUNTIF correct; no hard-coded totals | One formula error | Mostly typed values | /5 |
+| Sort/filter & validation (Obj 5) | Filter/validation used effectively | Basic use only | Missing | /5 |
+| Chart & dashboard (Obj 5) | Clear chart with labels; linked summaries | Chart present but weak | Missing | /5 |
+| Professional presentation (Obj 9) | Readable, titled sheets; fictional data only | Minor issues | Messy or real data used | /5 |
+
+---
+
+## Assignment A3 — Moot Court / Legal Awareness Presentation (MS PowerPoint)
+
+**Title:** Advocacy Deck or Legal Awareness Campaign  
+**Unit alignment:** T4 | **Objectives:** Obj 6, 9  
+**Estimated effort:** 3–5 hours  
+**Deliverables:** `.pptx` (8–12 slides) + optional 1-page speaker outline (PDF)
+
+### Task (choose **one** track)
+
+**Track A — Moot Court:** Prepare slides for a moot problem (instructor-supplied or approved hypothetical). Include facts, issues, arguments, authorities, prayer.
+
+**Track B — Legal Awareness:** Prepare an animated awareness deck on a topic such as consumer rights, cybercrime reporting, or RTI—aimed at a college seminar.
+
+### Technical requirements (PowerPoint)
+
+- Apply a consistent **theme/template**; readable fonts (≥24 pt body where possible).
+- **Title slide** and **section dividers** as needed.
+- At least one **SmartArt** graphic (timeline, process, or hierarchy).
+- At least one **chart** (can use sample statistics with source note).
+- **Transitions** on section slides only; **animations** on ≤ 50% of slides—purposeful, not distracting.
+- **Speaker notes** on at least four slides (essential for moot argument slides).
+
+### Rubric (25 marks)
+
+| Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks |
+|-----------|---------------|------------|-------------------------|-------|
+| Content & legal accuracy (Obj 6) | Clear narrative; legally sound | Minor gaps | Confused or inaccurate | /5 |
+| Visual design (Obj 6) | Clean layout; one idea per slide; strong contrast | Some crowded slides | Wall of text | /5 |
+| SmartArt & chart (Obj 6) | Both used meaningfully | One weak element | Missing | /5 |
+| Motion design (Obj 6) | Restrained, professional animations/transitions | Slightly excessive | Distracting or absent | /5 |
+| Speaker notes & delivery readiness (Obj 9) | Notes support oral advocacy | Minimal notes | Missing | /5 |
+
+---
+
+## Assignment A4 — AI Ethics & Human vs AI Drafting Comparison
+
+**Title:** Responsible AI Use and Comparative Drafting Analysis  
+**Unit alignment:** T5 | **Objectives:** Obj 7, 8, 9  
+**Estimated effort:** 4–6 hours  
+**Deliverables:** PDF report (1,200–1,800 words) + appendix screenshots (redacted)
+
+### Task
+
+#### Part 1 — AI-assisted research and summarization (Obj 7)
+
+1. Select a **public** legal topic (e.g., a landmark judgment summary available online—no confidential client facts).
+2. Use an **approved AI tool** (institutional or instructor-specified) to summarize the issue and holding.
+3. Independently verify the summary against the **primary source**.
+4. Document: prompt used, output, verification steps, errors found (if any).
+
+#### Part 2 — Ethical analysis (Obj 8)
+
+Write a structured critique covering:
+
+- **Privacy & confidentiality:** What data you refused to enter and why.
+- **Bias:** Whether the AI summary skewed facts or omitted parties/context.
+- **Accuracy & hallucination:** Citation or proposition check results.
+- **Accountability:** Who is responsible if this were filed in court.
+- **Limitations:** Where AI is unsuitable for this task.
+
+#### Part 3 — Comparative drafting (Obj 7, 8, 9)
+
+On the same topic, produce:
+
+- **Human draft:** One paragraph of professional legal commentary (your own words).
+- **AI draft:** One paragraph from generative AI (same prompt disclosed).
+
+Compare on: clarity, accuracy, tone, citation integrity, and fitness for client advice. Conclude with a **responsible-use policy** (5–7 bullet points) for a student law clinic.
+
+### Constraints
+
+- **Do not** input real client names, case IDs, or sealed material into public AI systems.
+- Redact screenshots in the appendix.
+- Cite all non-AI sources.
+
+### Rubric (25 marks)
+
+| Criterion | Excellent (5) | Good (3–4) | Needs improvement (1–2) | Marks |
+|-----------|---------------|------------|-------------------------|-------|
+| Research & verification (Obj 7) | Thorough primary-source check; errors flagged | Partial verification | No verification | /5 |
+| Ethical analysis depth (Obj 8) | All five themes addressed with examples | Superficial on 1–2 themes | Generic or missing | /5 |
+| Comparative drafting (Obj 9) | Insightful human vs AI comparison | Descriptive only | Missing comparison | /5 |
+| Responsible-use policy (Obj 8) | Practical, syllabus-aligned bullets | Vague guidelines | Absent | /5 |
+| Academic integrity (Obj 9) | No confidential data; proper citations | Minor issues | Policy violations | /5 |
+
+---
+
+## General Submission & Academic Integrity
+
+- Late submission per institutional policy.
+- Plagiarism includes submitting AI output as wholly original human work without disclosure where required.
+- Collaborative discussion is encouraged; submitted work must be individual unless assigned as group work.
+
+---
+
+*End of assignments — v1.0*

@@ -1,90 +1,33 @@
-# Academic Content Factory
+# Computer Information — Workspace
 
-A **subject-agnostic**, multi-agent system for producing high-quality teaching materials from any academic subject and scope.
+**Branch:** `workspace`  
+**Course:** Computer Information (law students)  
+**Track content here** in three folders only.
 
-Give it a subject + scope → get a structured outline, student notes, a real PowerPoint deck, and supplementary materials—with consistency checks, versioning, and Git integration.
+## Folders
 
-## What it produces
+| Folder | What it stores | Open |
+|---|---|---|
+| [`notes/`](./notes/) | Teaching outline + student notes | [Open notes](./notes/) |
+| [`slides/`](./slides/) | PPTX + slide JSON | [Open slides](./slides/) |
+| [`materials/`](./materials/) | Syllabus, Q&A, assignments, labs, revision aids | [Open materials](./materials/) |
 
-| Output | Description |
+## Branches (repo policy)
+
+| Branch | Purpose |
 |---|---|
-| Teaching outline | Sequenced topics + **Bloom’s Taxonomy** learning objectives |
-| Student notes | Study-ready Markdown aligned to the outline |
-| Slide deck | `slides.json` source + generated `.pptx` |
-| Materials pack | Assignments, tiered question bank, lab/workshop exercises |
-| Optional | Quizzes, glossary, mind map |
-| QA report | Consistency verdict before release |
+| `main` | Short index / links only |
+| `workspace` | All teaching files (`notes`, `slides`, `materials`) |
 
-## Agents
+No other long-lived branches.
 
-Defined in `.cursor/agents/`:
+## Quick links
 
-| Agent | Responsibility |
-|---|---|
-| **Main Orchestrator** | Entry point: planning, gates, retries, versioning, Git |
-| **Curriculum Architect** | Outline + Bloom objectives |
-| **Notes Writer** | Student notes |
-| **PPT Builder** | Slide JSON + PPTX build |
-| **Material Generator** | Assignments, questions, labs, optionals |
-| **QA Reviewer** | Cross-artifact consistency |
-
-See [AGENTS.md](./AGENTS.md) for the pipeline and contracts.
-
-## Repository layout
-
-```
-.
-├── AGENTS.md
-├── PROJECT_TODOS.md
-├── README.md
-├── .gitignore
-├── .cursor/agents/          # Specialist agent prompts
-├── scripts/build_pptx.py    # JSON → PPTX builder (themes + recovery)
-└── subjects/
-    └── _template/           # Copy this layout for new subjects
-```
-
-## Quick start
-
-1. Open this repo in Cursor.
-2. Invoke the **Main Orchestrator** with a request such as:
-
-   > Subject: Intro to Microeconomics. Audience: first-year undergrad. Scope: 4-hour unit on supply & demand. Include glossary.
-
-3. The orchestrator will create `subjects/<slug>/vN/`, run the agent pipeline, build PPTX, run QA, and commit/push per the Git workflow.
-
-### Build a PPTX manually
-
-```bash
-pip install python-pptx
-python scripts/build_pptx.py \
-  --input subjects/<slug>/vN/slides.json \
-  --output subjects/<slug>/vN/slides.pptx \
-  --theme academic-light \
-  --recover
-```
-
-Themes: `academic-light`, `academic-dark`, `minimal-mono`, `campus-blue`.
-
-## Versioning
-
-- Each release lives in `subjects/<slug>/vN/`.
-- Content changes create `vN+1` (released versions are not overwritten).
-- `subjects/<slug>/CURRENT` points at the active version.
-- `manifest.json` tracks status: `draft` → `qa` → `released`.
-
-## Operations checklist
-
-Use [PROJECT_TODOS.md](./PROJECT_TODOS.md) for every production run.
-
-## Design principles
-
-- Completely **subject-agnostic** (law, STEM, humanities, business, …)
-- Bloom-tagged objectives end-to-end
-- Automatic consistency checking before release
-- Robust PPTX generation with validation and recovery
-- Full Git workflow owned by the Main Orchestrator
-
-## License / use
-
-Teaching materials generated into `subjects/` belong to the course authors who run the factory. The factory scaffolding in this repository is reusable across courses and institutions.
+- Full-course notes: [`notes/full-course-notes.md`](./notes/full-course-notes.md)
+- Outline: [`notes/outline.md`](./notes/outline.md)
+- Full-course PPTX: [`slides/course/computer-info-full-course.pptx`](./slides/course/computer-info-full-course.pptx)
+- Syllabus: [`materials/syllabus/`](./materials/syllabus/)
+- Q&A bank: [`materials/qa/full-course-qa-bank.md`](./materials/qa/full-course-qa-bank.md)
+- Assignments: [`materials/assignments/`](./materials/assignments/)
+- Labs: [`materials/labs/full-course-labs.md`](./materials/labs/full-course-labs.md)
+- Revision sheet: [`materials/revision-sheet.md`](./materials/revision-sheet.md)

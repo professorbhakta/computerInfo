@@ -1,0 +1,807 @@
+{
+  "meta": {
+    "title": "Computer Information",
+    "subtitle": "Applied Computing & AI for Law Students — Units 1–5",
+    "author": "Academic Content Factory",
+    "subject_slug": "computer-info",
+    "version": "v1.0",
+    "theme": "campus-blue",
+    "language": "en"
+  },
+  "slides": [
+    {
+      "id": "s01",
+      "layout": "title",
+      "title": "Computer Information",
+      "subtitle": "Applied Computing & AI for Law Students — Full Syllabus (Units 1–5)",
+      "notes": "Welcome law students. This course builds practical skills in computing, MS Office, and ethical AI for legal practice. Expect SEE short notes, CIA practicals, and ethics scenarios."
+    },
+    {
+      "id": "s02",
+      "layout": "objectives",
+      "title": "Course Learning Objectives",
+      "bullets": [
+        "[Understand] Explain computers, OS, internet, and digital communication in legal work",
+        "[Understand] Summarize AI history, techniques, legal applications, and future scope",
+        "[Apply] Format legal documents in MS Word with layout, merge, and track changes",
+        "[Apply] Draft notices, agreements, petitions, and affidavits in Word",
+        "[Apply] Manage case, client, and billing data in MS Excel with formulas and charts",
+        "[Create] Design moot, seminar, and case presentations in MS PowerPoint",
+        "[Apply] Use AI tools for research and drafting with human oversight",
+        "[Evaluate] Judge AI outputs for privacy, bias, accuracy, and professional limits",
+        "[Apply] Demonstrate syllabus practical skills across all five units"
+      ],
+      "notes": "Objectives map to official Course Outcomes. Bloom tags signal exam depth: definitions at Understand; procedures at Apply; ethics vignettes at Evaluate."
+    },
+    {
+      "id": "s03",
+      "layout": "section",
+      "title": "Unit 1 — Introduction to Basic Computing",
+      "notes": "Six teaching hours, 10% weight. Emphasize legal workflows: research, secure files, professional email. AI is introduced at survey level; ethics deepens in Unit 5."
+    },
+    {
+      "id": "s04",
+      "layout": "bullets",
+      "title": "What Is a Computer?",
+      "bullets": [
+        "Electronic device that processes data into information",
+        "Follows instructions (programs) stored in software",
+        "Transforms raw facts into usable legal information",
+        "Used daily for drafting, research, and communication",
+        "Combines hardware, software, and human operators",
+        "Foundation for all other units in this course"
+      ],
+      "notes": "Define computer clearly for short-answer exams. Stress the data-to-information transformation—lawyers work with facts, dates, parties, and citations as data."
+    },
+    {
+      "id": "s05",
+      "layout": "two_column",
+      "title": "Computer System Components",
+      "left": {
+        "heading": "Hardware",
+        "bullets": [
+          "CPU and RAM — run Word, Excel, browsers",
+          "Storage — SSD, cloud, USB for case files",
+          "Input — keyboard, scanner for petitions",
+          "Output — monitor, printer for filings"
+        ]
+      },
+      "right": {
+        "heading": "Software & People",
+        "bullets": [
+          "System software — operating system (OS)",
+          "Application software — Word, Excel, research tools",
+          "Peopleware — users following professional discipline",
+          "IPO cycle: Input → Process → Output → Storage"
+        ]
+      },
+      "notes": "Use the IPO model. Hardware is physical; software is instructions. Do not treat Office apps as the only software—the OS and browser matter too."
+    },
+    {
+      "id": "s06",
+      "layout": "bullets",
+      "title": "Operating Systems — Core Functions",
+      "bullets": [
+        "System software managing hardware and resources",
+        "Boots the machine and runs application programs",
+        "Organizes files, folders, users, and permissions",
+        "Examples: Windows, macOS, Linux",
+        "Provides security accounts and device drivers",
+        "Platform for all legal applications you will use"
+      ],
+      "notes": "OS is high-yield for exams. Two functions to memorize: resource management and providing a platform for applications. Tie to folder discipline for client matters."
+    },
+    {
+      "id": "s07",
+      "layout": "bullets",
+      "title": "OS Skills for Legal Practice",
+      "bullets": [
+        "Folder structure: Client / Case / Year hierarchy",
+        "Clear file naming: year, parties, doc type, version",
+        "Backups before court deadlines and submissions",
+        "Respect permissions on shared chambers drives",
+        "Separate drafts from final filed PDFs",
+        "Never store sole copies on unencrypted USB sticks"
+      ],
+      "notes": "Demonstrate a sample path like Research/Judgments/2026/. Professional reliability starts with OS-level file discipline, not just Word formatting."
+    },
+    {
+      "id": "s08",
+      "layout": "bullets",
+      "title": "Internet Basics for Lawyers",
+      "bullets": [
+        "Global network linking computers and services worldwide",
+        "Browser accesses websites and authenticated databases",
+        "Search engines find open web; databases hold primary law",
+        "Cloud services store and sync documents remotely",
+        "HTTPS and logins protect access to paid research tools",
+        "Download, rename, and log sources in research folders"
+      ],
+      "notes": "Walk through a judgment-download workflow: OS file manager → browser → database → save PDF with clear name. Distinguish open web from subscription legal databases."
+    },
+    {
+      "id": "s09",
+      "layout": "bullets",
+      "title": "Digital Communication Channels",
+      "bullets": [
+        "Email — formal advocate and chambers correspondence",
+        "Messaging and video calls for client meetings",
+        "Shared drives for team document collaboration",
+        "Clear subject lines and labeled attachments",
+        "Confidentiality: avoid personal channels for client data",
+        "Use institution-approved tools where required"
+      ],
+      "notes": "Email remains professional default. Teach subject-line clarity and attachment naming. Warn against sending sensitive matter details through unsecured personal apps."
+    },
+    {
+      "id": "s10",
+      "layout": "bullets",
+      "title": "Introduction to Artificial Intelligence",
+      "bullets": [
+        "Systems performing tasks needing human-like intelligence",
+        "Pattern recognition, language understanding, recommendations",
+        "Already embedded in research and document tools",
+        "Not limited to chatbots — includes analytics dashboards",
+        "Assists lawyers; does not replace professional judgment",
+        "Ethical use is mandatory — detailed in Unit 5"
+      ],
+      "notes": "Counter the myth that AI equals only ChatGPT. Frame AI as a family of techniques applied across legal tech. Preview that Unit 5 covers ethics in depth."
+    },
+    {
+      "id": "s11",
+      "layout": "bullets",
+      "title": "Brief History of AI",
+      "bullets": [
+        "1950s–80s: symbolic and rule-based expert systems",
+        "1990s–2000s: machine learning from data examples",
+        "2010s: deep learning advances in language and vision",
+        "2020s: generative AI widely available to professionals",
+        "Legal tech adoption accelerated with NLP tools",
+        "Regulation and ethics now catch up with capability"
+      ],
+      "notes": "Keep history brief—a timeline slide for exams. Key exam phrase: evolution from rules → learning from data → generative models."
+    },
+    {
+      "id": "s12",
+      "layout": "two_column",
+      "title": "AI in the Legal Profession",
+      "left": {
+        "heading": "Current Applications",
+        "bullets": [
+          "Legal research and case summarization",
+          "Document review and contract analysis support",
+          "Analytics dashboards for case management",
+          "Drafting assistance under lawyer supervision"
+        ]
+      },
+      "right": {
+        "heading": "Professional Caution",
+        "bullets": [
+          "Verify every citation — AI can hallucinate",
+          "Protect client confidentiality in all tools",
+          "Human lawyer remains accountable",
+          "Unit 5 covers ethics and limitations fully"
+        ]
+      },
+      "notes": "High-yield short note topic: AI applications in law. Always pair capability with accountability. Hallucinated citations are a known professional risk."
+    },
+    {
+      "id": "s13",
+      "layout": "bullets",
+      "title": "AI Techniques and Future Scope",
+      "bullets": [
+        "Expert systems — rules encoding legal logic (conceptual)",
+        "Machine learning — models trained on examples",
+        "NLP — processing statutes, judgments, contracts",
+        "Generative models — create new text from patterns",
+        "Future: more embedded tools, stronger analytics",
+        "Growing demand for ethical and regulatory frameworks"
+      ],
+      "notes": "Conceptual only—no math required. Students should name technique families and link each to a legal use case at a survey level."
+    },
+    {
+      "id": "s14",
+      "layout": "bullets",
+      "title": "Unit 1 — Exam Tips",
+      "bullets": [
+        "Define computer and explain IPO + storage cycle",
+        "List hardware vs application vs system software",
+        "State two core functions of an operating system",
+        "Distinguish browser search from legal databases",
+        "Short note: AI applications in the legal profession",
+        "Avoid confusing OS with MS Office applications"
+      ],
+      "notes": "Exam tip slide. Common MCQ traps: software categories, OS purpose, and over-trusting AI. Revise definitions and one legal workflow example."
+    },
+    {
+      "id": "s15",
+      "layout": "section",
+      "title": "Unit 2 — MS Word for Legal Documentation",
+      "notes": "Six hours, 10% weight. Live-demo drafting. Insist on styles over manual formatting. Track changes models senior review workflow."
+    },
+    {
+      "id": "s16",
+      "layout": "bullets",
+      "title": "Word for Professional Legal Documents",
+      "bullets": [
+        "Primary tool for notices, agreements, petitions, affidavits",
+        "Professional output needs styles, not random font clicks",
+        "Consistent layout signals credibility to courts",
+        "Revision tools support supervised collaboration",
+        "Export to PDF after final proofreading",
+        "Syllabus practicals include notice and affidavit drafts"
+      ],
+      "notes": "Set expectations: formatting discipline equals professional credibility. Students will submit tracked-revision samples in lab work."
+    },
+    {
+      "id": "s17",
+      "layout": "bullets",
+      "title": "Creating and Formatting Documents",
+      "bullets": [
+        "Set font, size, line spacing, and alignment first",
+        "Use Styles (Heading 1, Body Text) for consistency",
+        "Styles enable automatic Table of Contents",
+        "Avoid multiple Enter presses for vertical spacing",
+        "Times New Roman or Arial per college/court norms",
+        "Save versions with clear filenames"
+      ],
+      "notes": "Demonstrate applying a Style versus manual bold/size. Styles are the professional standard and save time on long petitions."
+    },
+    {
+      "id": "s18",
+      "layout": "bullets",
+      "title": "Page Layout, Headers, and Footers",
+      "bullets": [
+        "Margins, orientation, and paper size affect filing readability",
+        "Headers: matter title, confidentiality label, court name",
+        "Footers: page numbers essential on long petitions",
+        "Section breaks when header/footer content changes",
+        "Columns rarely used; tables preferred for structured data",
+        "Preview print layout before submission"
+      ],
+      "notes": "Common pitfall: forgetting page numbers. Show header/footer insertion and when to use section breaks in multi-part documents."
+    },
+    {
+      "id": "s19",
+      "layout": "bullets",
+      "title": "Tables in Legal Documents",
+      "bullets": [
+        "Organize parties, timelines, property schedules, fee lists",
+        "Insert via Insert → Table; define columns before data",
+        "Use table styles for readable borders and shading",
+        "Avoid merged cells that break later sorting",
+        "Keep tables simple for court and client clarity",
+        "Convert tabular facts from narrative where helpful"
+      ],
+      "notes": "Tables beat space-bar alignment. Show a party-details table and a limitation timeline as legal examples."
+    },
+    {
+      "id": "s20",
+      "layout": "bullets",
+      "title": "Mail Merge — Steps and Legal Uses",
+      "bullets": [
+        "Step 1: Create template with merge fields (Name, Address)",
+        "Step 2: Connect data source (Excel or CSV list)",
+        "Step 3: Insert fields and preview each record",
+        "Step 4: Complete merge — print, PDF, or individual files",
+        "Use for batch client letters and workshop invitations",
+        "High-yield procedural question in SEE and CIA"
+      ],
+      "notes": "Mail merge steps are exam favorites. Demo with a small client list producing personalized notices or update letters."
+    },
+    {
+      "id": "s21",
+      "layout": "bullets",
+      "title": "References, Citations, and Footnotes",
+      "bullets": [
+        "References tab manages footnotes and endnotes",
+        "Footnotes for academic seminar and project work",
+        "Bibliography tools support consistent citation lists",
+        "Follow college citation style when specified",
+        "Cross-references link to sections, figures, or tables",
+        "Professional filings may use manual citation per court rules"
+      ],
+      "notes": "Distinguish academic footnote workflow from court filing conventions. Students need both awareness for seminars and practice drafts."
+    },
+    {
+      "id": "s22",
+      "layout": "bullets",
+      "title": "Track Changes and Comments",
+      "bullets": [
+        "Revision mode records insertions, deletions, and formatting",
+        "Comments flag questions without altering text",
+        "Supervisor reviews; drafter accepts or rejects edits",
+        "Essential in chambers and moot coach feedback",
+        "Deliver clean copy unless markup is requested",
+        "Never accept all changes without reading each one"
+      ],
+      "notes": "Workflow: draft → review → accept/reject → finalize. Pitfall: submitting a document with visible markup unintentionally."
+    },
+    {
+      "id": "s23",
+      "layout": "two_column",
+      "title": "Legal Drafting Document Types",
+      "left": {
+        "heading": "Notices & Agreements",
+        "bullets": [
+          "Notice: parties, facts, demand, timeline, signature",
+          "Agreement: title, parties, recitals, clauses, signatures",
+          "Clear numbered paragraphs for facts",
+          "Demand or obligation stated in plain language"
+        ]
+      },
+      "right": {
+        "heading": "Petitions & Affidavits",
+        "bullets": [
+          "Petition: court title, parties, facts, grounds, prayer",
+          "Affidavit: deponent details, numbered facts, verification",
+          "Verification or oath block at the end",
+          "Structure matters as much as formatting"
+        ]
+      },
+      "notes": "Students must outline skeleton structures for exams. Formatting supports substance—learn both. Lab: draft a practice notice and affidavit."
+    },
+    {
+      "id": "s24",
+      "layout": "bullets",
+      "title": "Unit 2 — Exam Tips",
+      "bullets": [
+        "Memorize four mail merge steps in order",
+        "Explain purpose of track changes in legal drafting",
+        "Outline structure of notice vs affidavit vs petition",
+        "Name five syllabus Word features with one-line purpose",
+        "Procedure questions: headers, footers, page numbers",
+        "Pitfall: spaces instead of styles or proper tables"
+      ],
+      "notes": "Revise mail merge and track changes first—they appear repeatedly. Practice outlining document skeletons from memory."
+    },
+    {
+      "id": "s25",
+      "layout": "section",
+      "title": "Unit 3 — MS Excel for Legal Data Management",
+      "notes": "Six hours, 10% weight. Use a realistic chambers case register. Emphasize client data privacy during demos."
+    },
+    {
+      "id": "s26",
+      "layout": "bullets",
+      "title": "Excel for Legal Data Management",
+      "bullets": [
+        "Turns scattered case facts into manageable registers",
+        "Workbook = .xlsx file; worksheet = single grid tab",
+        "Structure columns before entering many rows",
+        "Power comes from formulas, filters, and charts",
+        "Supports case tracking, client lists, and billing",
+        "Lab: case data sheet and billing sheet with formulas"
+      ],
+      "notes": "Frame Excel as a professional case-management tool, not just a calculator. Define workbook vs worksheet early—common exam distinction."
+    },
+    {
+      "id": "s27",
+      "layout": "bullets",
+      "title": "Data Entry and Formatting",
+      "bullets": [
+        "Design headers: CaseID, Client, Court, Status, FeesDue",
+        "Format dates as dates; currency as number/currency",
+        "Freeze top row so headers stay visible when scrolling",
+        "Wrap text for long notes; avoid unnecessary merges",
+        "One row per case or transaction — no blank spacer rows",
+        "Use Data Validation to limit Status dropdown values"
+      ],
+      "notes": "Show a Case Register column layout. Merged cells break sorting—warn students explicitly."
+    },
+    {
+      "id": "s28",
+      "layout": "bullets",
+      "title": "Formulas and Functions",
+      "bullets": [
+        "Every formula begins with = and uses cell references",
+        "=SUM(H2:H100) — total fees across matters",
+        "=AVERAGE() — mean value for reporting",
+        "=IF(G2=\"Pending\",\"Follow-up\",\"OK\") — status helper",
+        "=COUNTIF(G:G,\"Pending\") — count pending cases",
+        "Lookup (VLOOKUP/XLOOKUP): find client detail from master sheet"
+      ],
+      "notes": "Students must write formulas by hand in exams. Practice SUM, IF, and COUNTIF on a sample case register. Introduce lookup conceptually."
+    },
+    {
+      "id": "s29",
+      "layout": "bullets",
+      "title": "Sorting and Filtering Data",
+      "bullets": [
+        "Sort orders rows by date, client name, or fee amount",
+        "Filter shows only rows matching criteria (e.g., Pending)",
+        "AutoFilter arrows appear on header row",
+        "Multiple filters narrow to urgent matters quickly",
+        "Clear filters before applying new analysis",
+        "Interpret filtered views in scenario exam questions"
+      ],
+      "notes": "Demo filtering Status = Pending and sorting by NextDate. Exam scenarios may ask what a filter reveals about caseload."
+    },
+    {
+      "id": "s30",
+      "layout": "bullets",
+      "title": "Charts and Graphs",
+      "bullets": [
+        "Visual summary of numeric data — bar, pie, line charts",
+        "Select data range → Insert Chart → choose type",
+        "Bar charts compare case counts by court or status",
+        "Pie charts show proportion — use sparingly",
+        "Label axes and title for courtroom or seminar clarity",
+        "Charts update when underlying data changes"
+      ],
+      "notes": "Link chart choice to message: compare categories with bar; show trend over time with line. Keep charts simple and readable."
+    },
+    {
+      "id": "s31",
+      "layout": "bullets",
+      "title": "Case Tracking and Client Records",
+      "bullets": [
+        "Case register: filing date, next date, status, advocate",
+        "Client master sheet: contact, matter history, notes",
+        "Limitation reminders via date columns and IF formulas",
+        "Separate sensitive client data — access controls matter",
+        "Regular backups of active registers",
+        "Never share full client sheets on unsecured channels"
+      ],
+      "notes": "Privacy reminder throughout. A case tracker is the core lab deliverable—include NextDate and Status columns with formulas."
+    },
+    {
+      "id": "s32",
+      "layout": "bullets",
+      "title": "Billing and Documentation Sheets",
+      "bullets": [
+        "Columns: Date, Client, Description, Hours, Rate, Amount",
+        "Amount = Hours × Rate using formulas, not typed values",
+        "SUM row for total billable fees per period",
+        "Separate sheets for invoices vs payment received",
+        "Currency format and clear period labels (month/year)",
+        "Documentation sheet cross-links to case IDs"
+      ],
+      "notes": "Billing lab: build a sheet where Amount is formula-driven. Pitfall: typing totals instead of using SUM."
+    },
+    {
+      "id": "s33",
+      "layout": "bullets",
+      "title": "Unit 3 — Exam Tips",
+      "bullets": [
+        "Define workbook vs worksheet with examples",
+        "Write SUM, IF, and COUNTIF formulas from a scenario",
+        "Explain what a filter on Status = Pending shows",
+        "Interpret a simple bar chart of case counts",
+        "Pitfall: typing values where formulas are required",
+        "Pitfall: merged cells breaking sort and filter"
+      ],
+      "notes": "Formula writing is practical-exam core. Revise cell references and three essential functions. Practice reading a filtered register."
+    },
+    {
+      "id": "s34",
+      "layout": "section",
+      "title": "Unit 4 — MS PowerPoint for Legal Presentations",
+      "notes": "Six hours, 10% weight. Advocate clarity over decoration. One idea per slide. Speaker notes support moot delivery."
+    },
+    {
+      "id": "s35",
+      "layout": "bullets",
+      "title": "PowerPoint in Legal and Academic Context",
+      "bullets": [
+        "Communicate case facts, arguments, and awareness topics",
+        "Used in moot courts, seminars, and client meetings",
+        "Slides support oral advocacy — you are the presenter",
+        "Poor slides distract judges and examiners",
+        "Lab: moot court deck and legal awareness animation",
+        "8–12 slides is a typical student presentation length"
+      ],
+      "notes": "Set design philosophy early: slides are visual aids, not scripts. Moot and seminar contexts have different pacing needs."
+    },
+    {
+      "id": "s36",
+      "layout": "bullets",
+      "title": "Slide Design Principles",
+      "bullets": [
+        "One main idea per slide — avoid walls of text",
+        "Large readable fonts; high contrast background",
+        "Limit bullets to five or six per slide",
+        "Use images, diagrams, or quotes — not paragraphs",
+        "Consistent alignment and spacing throughout",
+        "Speaker notes hold detail; slides stay minimal"
+      ],
+      "notes": "Show a bad dense slide versus a clean one. Contrast and font size matter in courtrooms with projectors."
+    },
+    {
+      "id": "s37",
+      "layout": "bullets",
+      "title": "Themes and Templates",
+      "bullets": [
+        "Themes apply coordinated colors, fonts, and effects",
+        "Templates provide pre-built slide layouts",
+        "Choose professional themes — avoid distracting backgrounds",
+        "Slide Master edits fonts and placeholders globally",
+        "Match theme to context: formal moot vs awareness campaign",
+        "campus-blue and academic themes suit law presentations"
+      ],
+      "notes": "Demo applying a theme and editing Slide Master for consistent footers. Formal moot decks need restrained visual design."
+    },
+    {
+      "id": "s38",
+      "layout": "two_column",
+      "title": "Animations vs Transitions",
+      "left": {
+        "heading": "Transitions",
+        "bullets": [
+          "Effect when moving between entire slides",
+          "Examples: Fade, Push, Wipe",
+          "Use subtle transitions — one style for whole deck",
+          "Overuse distracts judges and examiners"
+        ]
+      },
+      "right": {
+        "heading": "Animations",
+        "bullets": [
+          "Effects on objects within a single slide",
+          "Reveal bullet points or diagram steps sequentially",
+          "Build complex arguments step by step",
+          "Purpose: direct attention, not entertainment"
+        ]
+      },
+      "notes": "Exam distinction: transitions = between slides; animations = within a slide. Both should be purposeful and minimal."
+    },
+    {
+      "id": "s39",
+      "layout": "bullets",
+      "title": "SmartArt and Charts in Slides",
+      "bullets": [
+        "SmartArt visualizes processes, hierarchies, and cycles",
+        "Use for legal procedures or organizational structures",
+        "Insert Chart links to Excel data for live updates",
+        "Prefer SmartArt over bullet walls for relationships",
+        "Keep diagrams simple — label every element clearly",
+        "Test readability from the back of the room"
+      ],
+      "notes": "When to use SmartArt vs bullets is a common exam point. Show a simple litigation process or court hierarchy diagram."
+    },
+    {
+      "id": "s40",
+      "layout": "bullets",
+      "title": "Legal Case Presentations",
+      "bullets": [
+        "Open with caption: parties, court, statute involved",
+        "Facts slide — chronological, neutral tone",
+        "Issues framed as precise legal questions",
+        "Arguments split: petitioner vs respondent points",
+        "Relief or prayer stated clearly on dedicated slide",
+        "Annexures referenced; do not crowd slides with citations"
+      ],
+      "notes": "Case presentation structure mirrors written pleadings. Slides summarize; oral argument adds authority and analysis."
+    },
+    {
+      "id": "s41",
+      "layout": "bullets",
+      "title": "Moot Court Presentation Structure",
+      "bullets": [
+        "Facts → Issues → Arguments → Prayer — classic flow",
+        "Allocate time: facts brief, arguments longest",
+        "Anticipate judge interruptions — backup slides optional",
+        "Speaker notes contain citations and case names",
+        "Closing slide: precise relief sought",
+        "Rehearse with timer; cut excess animation"
+      ],
+      "notes": "Moot deck is a lab deliverable. Emphasize speaker notes for citations while slides stay clean. Facts–issues–arguments–prayer is exam-ready structure."
+    },
+    {
+      "id": "s42",
+      "layout": "bullets",
+      "title": "Seminar and Legal Awareness Decks",
+      "bullets": [
+        "Hook slide: striking question or statistic",
+        "Define key legal terms for general audience",
+        "Use examples and scenarios — not jargon alone",
+        "One awareness message per section",
+        "Call to action: rights, remedies, or helplines",
+        "Credits slide: sources and team members"
+      ],
+      "notes": "Seminar decks educate non-lawyers. Contrast with moot formality. Legal awareness lab may use light animation for emphasis."
+    },
+    {
+      "id": "s43",
+      "layout": "bullets",
+      "title": "Unit 4 — Exam Tips",
+      "bullets": [
+        "State design principles: one idea, contrast, readability",
+        "Distinguish animation (within slide) vs transition (between)",
+        "When to use SmartArt instead of bullet lists",
+        "Outline moot deck structure: facts–issues–arguments–prayer",
+        "Pitfall: wall-of-text slides and excessive effects",
+        "Pitfall: unreadable color combinations"
+      ],
+      "notes": "Design principles and moot structure are high-yield. Review a sample deck critically before the practical exam."
+    },
+    {
+      "id": "s44",
+      "layout": "section",
+      "title": "Unit 5 — AI and Ethical Use in Law",
+      "notes": "Six hours, 10% weight. Pair every tool demo with ethics critique. Never paste confidential client data into public AI tools."
+    },
+    {
+      "id": "s45",
+      "layout": "bullets",
+      "title": "AI Tools for Legal Research",
+      "bullets": [
+        "Database AI: natural-language search in case law platforms",
+        "Summarization tools condense judgments and statutes",
+        "Citation verification still requires primary sources",
+        "Compare AI summary against original judgment text",
+        "Institution may provide approved research assistants",
+        "Open web chatbots are not substitutes for databases"
+      ],
+      "notes": "Demo research workflow with verification step. Stress that subscription databases remain authoritative; AI assists retrieval and summary."
+    },
+    {
+      "id": "s46",
+      "layout": "bullets",
+      "title": "Generative AI Basics",
+      "bullets": [
+        "Creates new text, images, or code from learned patterns",
+        "Large language models predict likely next words",
+        "Trained on vast corpora — not live legal databases",
+        "Useful for outlines, rephrasing, and brainstorming",
+        "Outputs may be wrong, outdated, or jurisdictionally off",
+        "Always label AI-assisted work per college policy"
+      ],
+      "notes": "Define generative AI for exams. Contrast with traditional search. Students should explain why training data limits legal reliability."
+    },
+    {
+      "id": "s47",
+      "layout": "bullets",
+      "title": "AI in Judiciary and Legal Analytics",
+      "bullets": [
+        "Analytics dashboards track case pendency and outcomes",
+        "NLP tools assist classification and document clustering",
+        "Some jurisdictions pilot AI transcription and translation",
+        "Predictive analytics raise fairness and transparency issues",
+        "Lawyers must understand tool limits in court contexts",
+        "Regulatory frameworks evolving globally"
+      ],
+      "notes": "Survey level only. Link to professional responsibility—analytics can reflect historical bias in court data."
+    },
+    {
+      "id": "s48",
+      "layout": "bullets",
+      "title": "AI-Assisted Drafting",
+      "bullets": [
+        "Tools suggest clauses, rephrase paragraphs, check tone",
+        "Useful starting point for notices and memo outlines",
+        "Lawyer must verify facts, law, and citations",
+        "Comparative lab: human draft vs AI-assisted draft",
+        "Never file AI output without full professional review",
+        "Client confidentiality rules apply to all inputs"
+      ],
+      "notes": "Practical 8 alignment: human vs AI drafting comparison. AI accelerates first drafts; accountability stays with the advocate."
+    },
+    {
+      "id": "s49",
+      "layout": "bullets",
+      "title": "Privacy and Data Protection",
+      "bullets": [
+        "Client names, facts, and documents are confidential",
+        "Public AI tools may store or train on your inputs",
+        "Use anonymized prompts or approved enterprise tools",
+        "Data protection laws govern personal information handling",
+        "Breach of confidentiality is a professional conduct issue",
+        "When in doubt, do not paste matter details into AI"
+      ],
+      "notes": "Core ethics topic. Scenario exams: student pastes client facts into ChatGPT—identify the confidentiality breach and correct approach."
+    },
+    {
+      "id": "s50",
+      "layout": "bullets",
+      "title": "Bias in AI Systems",
+      "bullets": [
+        "AI reflects biases in training data and design choices",
+        "May disadvantage groups in risk scoring or search ranking",
+        "Historical court data can encode systemic inequities",
+        "Lawyers must question AI recommendations critically",
+        "Document limitations when relying on analytics",
+        "Fairness and access to justice are legal values at stake"
+      ],
+      "notes": "Define bias for exams: systematic unfairness in outputs. Give examples: skewed training data affecting predictions or summaries."
+    },
+    {
+      "id": "s51",
+      "layout": "bullets",
+      "title": "Ethics Caution — Professional Responsibility",
+      "bullets": [
+        "You remain accountable for every filed document",
+        "AI does not hold a law license or appear in court",
+        "Disclose AI assistance when policy or court requires",
+        "Never cite AI-generated cases without verification",
+        "Competence includes understanding tools you use",
+        "Ethical practice means verify, protect, and disclose"
+      ],
+      "notes": "Ethics caution slide — pause for discussion. Use a vignette: fake citation discovered before filing. What should the student do?"
+    },
+    {
+      "id": "s52",
+      "layout": "bullets",
+      "title": "Limitations of AI in Law",
+      "bullets": [
+        "Hallucination — confident but fabricated citations or facts",
+        "Jurisdiction errors — foreign law presented as local",
+        "No real-world awareness of your specific matter",
+        "Cannot exercise ethical judgment or courtroom advocacy",
+        "Training cut-off dates miss recent amendments",
+        "AI assists research and drafting; it does not practice law"
+      ],
+      "notes": "Limitations are exam favorites alongside ethics. Hallucination and jurisdiction mismatch are concrete examples students must articulate."
+    },
+    {
+      "id": "s53",
+      "layout": "bullets",
+      "title": "Human-in-the-Loop Practice",
+      "bullets": [
+        "Human lawyer reviews every AI output before reliance",
+        "Verification loop: generate → check → correct → approve",
+        "Senior supervision for student AI-assisted work",
+        "Maintain research logs showing primary sources checked",
+        "Reject and rewrite when AI output fails quality bar",
+        "Professional standard: accountable human judgment last"
+      ],
+      "notes": "Human-in-the-loop is the operational answer to AI risk. Define it clearly—accountable human review over all consequential outputs."
+    },
+    {
+      "id": "s54",
+      "layout": "bullets",
+      "title": "Responsible and Ethical AI Use",
+      "bullets": [
+        "Use approved tools; know their terms of service",
+        "Minimize personal data in prompts; anonymize facts",
+        "Cross-check all legal propositions against primary sources",
+        "Educate clients about AI limits when relevant",
+        "Stay updated on bar council and college AI policies",
+        "Ethics is not optional — it is part of legal competence"
+      ],
+      "notes": "Synthesize Unit 5 into a responsible-use checklist. Connect to Course Outcome 8: Evaluate AI for ethics and professional limits."
+    },
+    {
+      "id": "s55",
+      "layout": "bullets",
+      "title": "Unit 5 — Exam Tips",
+      "bullets": [
+        "Short notes: bias, privacy, hallucination, human-in-the-loop",
+        "Scenario: identify confidentiality breach in AI use",
+        "Explain why AI citations must be verified independently",
+        "List three limitations of AI in legal practice",
+        "Compare human drafting vs AI-assisted drafting duties",
+        "Pitfall: assuming AI practices law or is always current"
+      ],
+      "notes": "Ethics vignettes dominate Unit 5 exams. Practice writing short structured answers: issue, rule/policy, application, conclusion."
+    },
+    {
+      "id": "s56",
+      "layout": "bullets",
+      "title": "Course Summary — Units 1 to 5",
+      "bullets": [
+        "T1: Computing fundamentals, OS, internet, AI survey",
+        "T2: Word formatting, merge, track changes, legal drafts",
+        "T3: Excel registers, formulas, filters, charts, billing",
+        "T4: PowerPoint design, themes, moot and seminar decks",
+        "T5: Generative AI, research tools, ethics, human oversight",
+        "Integrate skills: ethical digital practice across all tools"
+      ],
+      "notes": "Recap all five units in ten minutes. Point students to revision sheet and practicals 1–8. Ethics from T5 applies retroactively to T1 AI intro."
+    },
+    {
+      "id": "s57",
+      "layout": "closing",
+      "title": "Questions and Next Steps",
+      "bullets": [
+        "Complete lab practicals 1–8 before CIA assessments",
+        "Revise exam tips and self-check questions per unit",
+        "Practice one notice, one Excel sheet, one moot deck",
+        "Run an ethical audit on any AI-assisted draft you create",
+        "Office hours and LMS materials available for support",
+        "Thank you — apply these skills with professional integrity"
+      ],
+      "notes": "Invite questions. Remind students of assessment mix: SEE short notes, procedures, practicals, and ethics scenarios. Close with integrity message."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "subject": "Computer Information",
+  "slug": "computer-info",
+  "scope": "Full syllabus Units 1–5 for law students (basic computing, MS Word/Excel/PowerPoint, AI ethics)",
+  "audience": "Law students (BA-LLB / equivalent); introductory applied computing",
+  "exam_focus": "SEE + CIA (MCQ, assignments, presentations, practical)",
+  "version": "v1.0",
+  "version_type": "initial",
+  "status": "released",
+  "theme": "campus-blue",
+  "created": "2026-07-17T00:00:00Z",
+  "updated": "2026-07-17T00:00:00Z",
+  "based_on": null,
+  "prerequisite": "Knowledge of basic computing",
+  "teaching_scheme": {
+    "lecture_hrs_week": 2,
+    "lab_hrs_week": 1,
+    "credits": 2,
+    "total_marks": 50
+  },
+  "agents": {
+    "orchestrator": "main-orchestrator",
+    "curriculum": "curriculum-architect",
+    "notes": "notes-writer",
+    "ppt": "ppt-builder",
+    "materials": "material-generator",
+    "qa": "qa-reviewer"
+  },
+  "outputs": {
+    "outline": "outline.md",
+    "notes": "notes.md",
+    "slides_json": "slides.json",
+    "slides_pptx": "slides.pptx",
+    "question_bank": "materials/question-bank.md",
+    "assignments": "materials/assignments.md",
+    "labs": "materials/labs.md",
+    "glossary": "materials/glossary.md",
+    "mindmap": "materials/mindmap.md",
+    "revision_sheet": "materials/revision-sheet.md",
+    "quizzes": null,
+    "changelog": "changelog.md",
+    "qa_report": "qa-report.md"
+  },
+  "bloom_objectives": [
+    "[Understand] Explain computer system components, OS roles, internet basics, and digital communication in a legal-work context",
+    "[Understand] Summarize AI history, techniques at a conceptual level, and applications in the legal profession",
+    "[Apply] Prepare professional legal documents in MS Word (notices, agreements, petitions, affidavits) with formatting, citations, and track changes",
+    "[Apply] Organize legal records, case tracking, client data, and billing in MS Excel using formulas, filters, and charts",
+    "[Create] Design effective moot court / seminar presentations in MS PowerPoint using themes, SmartArt, charts, and purposeful motion",
+    "[Evaluate] Critique AI-assisted legal research and drafting for ethics, privacy, bias, and professional responsibility",
+    "[Apply] Complete syllabus practicals demonstrating responsible tool use across Word, Excel, PowerPoint, and AI"
+  ],
+  "notes": "Generated from official syllabus; subject-agnostic factory applied to law-computing course."
+}

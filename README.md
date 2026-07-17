@@ -19,6 +19,8 @@ This repository keeps **only two branches** for easy tracking.
 | `slides/` | PPTX + slide JSON | [Open slides](https://github.com/professorbhakta/computerInfo/tree/workspace/slides) |
 | `materials/` | Syllabus, Q&A, assignments, labs, revision aids (**md + txt + docx**) | [Open materials](https://github.com/professorbhakta/computerInfo/tree/workspace/materials) |
 
+All **five syllabus units** have dedicated packs on `workspace` under `notes/unit-01`…`unit-05`, `slides/unit-01`…`unit-05`, and matching `materials` Q&A / assignments / labs files.
+
 ## Quick links
 
 - Full-course notes: [`notes/full-course-notes.md`](https://github.com/professorbhakta/computerInfo/blob/workspace/notes/full-course-notes.md)

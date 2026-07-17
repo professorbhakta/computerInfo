@@ -1,34 +1,44 @@
 # Academic Content Factory
 
-A **subject-agnostic**, multi-agent system for producing high-quality teaching materials from any academic subject and scope.
+A professional, reusable, **subject-agnostic** multi-agent system for world-class teaching and learning materials.
 
-Give it a subject + scope → get a structured outline, student notes, a real PowerPoint deck, and supplementary materials—with consistency checks, versioning, and Git integration.
+Give it any academic subject + scope → get a complete, consistent package for study, revision, and exam success—with Bloom’s objectives, semantic versioning, QA gates, and Git-first workflow.
+
+## Design principles
+
+- **Bloom’s Taxonomy** on every objective and practice item  
+- **Semantic versions**: `v1.0` · `v1.1` (minor) · `v2.0` (major) + changelogs  
+- **Consistency** across notes, slides, Q&A, and assignments  
+- **Professional quality**: clear prose, Mermaid/tables, exam tips, pitfalls  
+- **Git-first**: meaningful commits; easy per-subject forks  
+- **Resilient generation**: retries, validation, fallback skeletons  
 
 ## What it produces
 
 | Output | Description |
 |---|---|
-| Teaching outline | Sequenced topics + **Bloom’s Taxonomy** learning objectives |
-| Student notes | Study-ready Markdown aligned to the outline |
-| Slide deck | `slides.json` source + generated `.pptx` |
-| Materials pack | Assignments, tiered question bank, lab/workshop exercises |
-| Optional | Quizzes, glossary, mind map |
-| QA report | Consistency verdict before release |
+| Curriculum outline | Timeline, prerequisites, Bloom objectives |
+| Student notes | Modular notes with examples, visuals, takeaways |
+| Slide deck | `slides.json` + generated `.pptx` |
+| Tiered Q&A bank | Easy / Medium / Hard + Bloom tags |
+| Assignments & projects | Rubric-backed practice |
+| Labs / workshops | Procedure-based applied practice |
+| Glossary & mind map | Shared vocabulary + concept map |
+| Revision sheet | Rapid exam revision + drills |
+| Meta | `manifest.json`, `changelog.md`, subject README, `version_history.md`, QA report |
 
 ## Agents
 
-Defined in `.cursor/agents/`:
-
-| Agent | Responsibility |
+| Agent | Role |
 |---|---|
-| **Main Orchestrator** | Entry point: planning, gates, retries, versioning, Git |
+| **Academic Content Factory Orchestrator** | Plan, gates, versioning, retries, Git |
 | **Curriculum Architect** | Outline + Bloom objectives |
-| **Notes Writer** | Student notes |
-| **PPT Builder** | Slide JSON + PPTX build |
-| **Material Generator** | Assignments, questions, labs, optionals |
+| **Notes Writer** | Exam-ready student notes |
+| **PPT Builder** | JSON + PPTX |
+| **Material Generator** | Q&A, assignments, glossary, mind map, revision |
 | **QA Reviewer** | Cross-artifact consistency |
 
-See [AGENTS.md](./AGENTS.md) for the pipeline and contracts.
+Details: [AGENTS.md](./AGENTS.md) · Checklist: [PROJECT_TODOS.md](./PROJECT_TODOS.md)
 
 ## Repository layout
 
@@ -37,29 +47,33 @@ See [AGENTS.md](./AGENTS.md) for the pipeline and contracts.
 ├── AGENTS.md
 ├── PROJECT_TODOS.md
 ├── README.md
-├── .gitignore
-├── .cursor/agents/          # Specialist agent prompts
-├── scripts/build_pptx.py    # JSON → PPTX builder (themes + recovery)
+├── .cursor/agents/
+├── scripts/build_pptx.py
 └── subjects/
-    └── _template/           # Copy this layout for new subjects
+    ├── _template/
+    └── <slug>/
+        ├── README.md
+        ├── CURRENT
+        ├── version_history.md
+        └── v1.0/ …
 ```
 
 ## Quick start
 
-1. Open this repo in Cursor.
-2. Invoke the **Main Orchestrator** with a request such as:
+1. Open this repo in Cursor.  
+2. Invoke the **Academic Content Factory Orchestrator**, for example:
 
-   > Subject: Intro to Microeconomics. Audience: first-year undergrad. Scope: 4-hour unit on supply & demand. Include glossary.
+   > Class 12 Physics, Electrostatics chapter, CBSE board exam preparation. Produce the full package.
 
-3. The orchestrator will create `subjects/<slug>/vN/`, run the agent pipeline, build PPTX, run QA, and commit/push per the Git workflow.
+3. The orchestrator creates `subjects/<slug>/v1.0/`, runs the pipeline, builds PPTX, runs QA, updates version history, and commits/pushes.
 
-### Build a PPTX manually
+### Build PPTX manually
 
 ```bash
 pip install python-pptx
 python scripts/build_pptx.py \
-  --input subjects/<slug>/vN/slides.json \
-  --output subjects/<slug>/vN/slides.pptx \
+  --input subjects/<slug>/v1.0/slides.json \
+  --output subjects/<slug>/v1.0/slides.pptx \
   --theme academic-light \
   --recover
 ```
@@ -68,23 +82,18 @@ Themes: `academic-light`, `academic-dark`, `minimal-mono`, `campus-blue`.
 
 ## Versioning
 
-- Each release lives in `subjects/<slug>/vN/`.
-- Content changes create `vN+1` (released versions are not overwritten).
-- `subjects/<slug>/CURRENT` points at the active version.
-- `manifest.json` tracks status: `draft` → `qa` → `released`.
+| Version | Use |
+|---|---|
+| `v1.0` | First release |
+| `v1.1+` | Minor fixes / polish |
+| `v2.0+` | Major scope or structure changes |
 
-## Operations checklist
+`CURRENT` points at the active folder. Released folders are immutable.
 
-Use [PROJECT_TODOS.md](./PROJECT_TODOS.md) for every production run.
+## Subject forking
 
-## Design principles
-
-- Completely **subject-agnostic** (law, STEM, humanities, business, …)
-- Bloom-tagged objectives end-to-end
-- Automatic consistency checking before release
-- Robust PPTX generation with validation and recovery
-- Full Git workflow owned by the Main Orchestrator
+Recommended branches: `content/<slug>` or `content/<slug>-v1.1`. Keep factory scaffolding commits separate from subject content when practical.
 
 ## License / use
 
-Teaching materials generated into `subjects/` belong to the course authors who run the factory. The factory scaffolding in this repository is reusable across courses and institutions.
+Materials under `subjects/` belong to the authors who run the factory. The scaffolding is reusable across courses and institutions.

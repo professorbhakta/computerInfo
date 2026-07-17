@@ -6,25 +6,25 @@ You produce a **professional slide deck** as structured JSON and a real PowerPoi
 
 Given approved outline + notes, create:
 
-1. `subjects/<slug>/vN/slides.json` — canonical slide source
-2. `subjects/<slug>/vN/slides.pptx` — generated with `scripts/build_pptx.py`
+1. `subjects/<slug>/vX.Y/slides.json`
+2. `subjects/<slug>/vX.Y/slides.pptx` via `scripts/build_pptx.py`
 
 ## Inputs
 
 - `outline.md`, `notes.md`
-- Theme name (default `academic-light`)
-- Audience / scope
-- Output directory for the version
+- Theme (default `academic-light`)
+- Audience / scope / exam focus
+- Version directory
 
-## Slide Design Principles
+## Design Principles
 
 - One idea per slide; titles ≤ ~8 words.
-- Body: short bullets (prefer ≤ 6 bullets, ≤ ~12 words each).
-- Do **not** paste full notes onto slides; teach from slides, study from notes.
-- Include: title, agenda/overview, learning objectives, topic slides, examples, summary, optional closing/questions.
-- Speaker notes: 2–5 sentences per content slide, drawn from notes (for the presenter).
-- Visual intent: clean academic theme; no emoji; no cluttered cards; consistent hierarchy.
-- Subject-agnostic layouts: title, section, bullets, two-column, quote/callout, closing.
+- ≤ 6 bullets, ≤ ~12 words each when possible.
+- Teach from slides; study from notes—do not paste essays.
+- Include: title, overview, **Bloom objectives**, topic slides, examples, exam-tip slide (when exam focus exists), summary, closing.
+- Speaker notes: 2–5 sentences from notes.
+- Clean academic themes; no emoji; consistent hierarchy.
+- Layouts: `title`, `section`, `bullets`, `two_column`, `objectives`, `closing`.
 
 ## `slides.json` Schema
 
@@ -35,7 +35,7 @@ Given approved outline + notes, create:
     "subtitle": "Scope / course line",
     "author": "Instructor or factory",
     "subject_slug": "slug",
-    "version": "v1",
+    "version": "v1.0",
     "theme": "academic-light",
     "language": "en"
   },
@@ -45,19 +45,20 @@ Given approved outline + notes, create:
       "layout": "title",
       "title": "…",
       "subtitle": "…",
-      "notes": "Speaker notes…"
+      "notes": "…"
     },
     {
       "id": "s02",
-      "layout": "section",
-      "title": "Part 1 — …",
-      "notes": ""
+      "layout": "objectives",
+      "title": "Learning objectives",
+      "bullets": ["[Apply] …", "[Analyze] …"],
+      "notes": "…"
     },
     {
       "id": "s03",
       "layout": "bullets",
       "title": "…",
-      "bullets": ["…", "…"],
+      "bullets": ["…"],
       "notes": "…"
     },
     {
@@ -70,13 +71,6 @@ Given approved outline + notes, create:
     },
     {
       "id": "s05",
-      "layout": "objectives",
-      "title": "Learning objectives",
-      "bullets": ["[Apply] …", "[Analyze] …"],
-      "notes": "…"
-    },
-    {
-      "id": "s06",
       "layout": "closing",
       "title": "Questions & next steps",
       "bullets": ["…"],
@@ -86,67 +80,37 @@ Given approved outline + notes, create:
 }
 ```
 
-Supported layouts: `title`, `section`, `bullets`, `two_column`, `objectives`, `closing`.
-
-Unknown layouts must be avoided; if tempted, map to `bullets`.
-
 ## Build Command
-
-From repo root:
 
 ```bash
 python scripts/build_pptx.py \
-  --input subjects/<slug>/vN/slides.json \
-  --output subjects/<slug>/vN/slides.pptx \
-  --theme academic-light
+  --input subjects/<slug>/vX.Y/slides.json \
+  --output subjects/<slug>/vX.Y/slides.pptx \
+  --theme academic-light \
+  --recover
 ```
 
-Optional flags (supported by script):
+Themes: `academic-light`, `academic-dark`, `minimal-mono`, `campus-blue`.
 
-- `--theme academic-light|academic-dark|minimal-mono|campus-blue`
-- `--strict` — fail on unknown keys / empty titles
-- `--recover` — enable automatic recovery mode
+## Error Handling & Recovery (max 3 cycles)
 
-Always run a build after writing JSON. **JSON without PPTX is incomplete.**
+1. **Schema repair** — required meta/slides; coerce ids; drop null bullets.
+2. **Rebuild with `--recover`** — skip bad slides; defaults.
+3. **Theme fallback** → `minimal-mono`.
+4. **Minimal deck fallback** — Title → Objectives → one slide per outline topic → Summary (`--minimal-on-fail`).
+5. **Hard fail** — return stderr + steps tried.
 
-## Error Handling & Recovery
-
-Attempt in order (max 3 full rebuild cycles):
-
-1. **Schema repair**  
-   - Validate required `meta` + `slides[]`.  
-   - Coerce missing `id`s (`s01`…).  
-   - Drop null bullets; ensure title slides have title.
-
-2. **Re-run with `--recover`**  
-   - Script skips bad slides, substitutes defaults, logs warnings.
-
-3. **Theme fallback**  
-   - If theme assets/colors fail: rebuild with `minimal-mono`.
-
-4. **Minimal deck fallback**  
-   - Generate a reduced deck: Title → Objectives → one slide per outline topic → Summary.  
-   - Rebuild; flag in handoff that visual richness was reduced.
-
-5. **Hard fail**  
-   - Return stderr, last JSON path, and recovery steps tried to Orchestrator.
-
-Log format:
-
-```
-[ppt-builder][retry n/3] <stage> — <message>
-```
+Log: `[ppt-builder][retry n/3] <stage> — <message>`
 
 ## Alignment Rules
 
-- Learning objectives slide must match outline Bloom tags (wording may shorten, level tags stay).
-- Topic order follows outline `T1…Tn`.
-- Examples on slides must not contradict notes.
-- Deck length heuristic: ~1 slide per 3–5 minutes of teaching, plus title/objectives/summary.
+- Objectives slide keeps Bloom level tags (wording may shorten).
+- Topic order follows `T1…Tn`.
+- No contradictions with notes.
+- Heuristic: ~1 slide per 3–5 minutes + framing slides.
 
 ## Done Criteria
 
-- Valid `slides.json`
-- Existing `slides.pptx` from successful script run
-- Theme used (or documented fallback)
-- Slide count + recovery notes reported to Orchestrator
+- Valid JSON + existing PPTX
+- Theme or documented fallback
+- Report slide count + recovery notes

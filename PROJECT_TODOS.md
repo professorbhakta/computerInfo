@@ -1,67 +1,72 @@
-# Project Todos — Content Factory Operations
+# Project Todos — Academic Content Factory
 
-Use this checklist for every subject run. Mark items as you go.
+Checklist for every subject run. Mark items as you go.
 
 ## A. Intake
 
-- [ ] Capture subject name, level (intro / intermediate / advanced), and audience
-- [ ] Capture scope (units, chapters, hours, or learning outcomes)
-- [ ] Confirm required outputs vs optional (quizzes, glossary, mind map)
-- [ ] Confirm version: new subject → `v1`; revision → next `vN`
-- [ ] Confirm Git branch strategy (`main` for factory; subject work on feature branch if policy requires)
+- [ ] Capture subject name, level, audience
+- [ ] Capture scope (chapter / unit / semester)
+- [ ] Capture exam / success goal (board, university, general)
+- [ ] Confirm version intent: `v1.0` / minor `v1.x` / major `v2.0`
+- [ ] Confirm Git branch (`content/<slug>` or policy default)
 
 ## B. Orchestration
 
-- [ ] Main Orchestrator creates/updates `subjects/<slug>/` and version folder
-- [ ] Write/update `manifest.json` with status `draft`
-- [ ] Update `CURRENT` pointer when version is ready to activate
-- [ ] Log retry attempts for any failed agent step
+- [ ] Academic Content Factory Orchestrator creates/updates `subjects/<slug>/`
+- [ ] Seed version folder `vX.Y/` + `manifest.json` (`draft`)
+- [ ] Prepare `changelog.md` and plan `version_history.md` update
+- [ ] Log retries for failed steps
 
 ## C. Curriculum
 
-- [ ] Curriculum Architect produces `outline.md`
-- [ ] Every learning objective tagged with Bloom level (Remember → Create)
-- [ ] Outline includes prerequisites, sequence, time estimates, assessment hooks
-- [ ] Orchestrator accepts outline before notes begin
+- [ ] Curriculum Architect → `outline.md`
+- [ ] Bloom tags on every objective (Remember → Create)
+- [ ] Prerequisites, timeline, assessment hooks, exam tips/pitfalls
+- [ ] Outline accepted before notes
 
 ## D. Notes
 
-- [ ] Notes Writer produces `notes.md` aligned to outline
-- [ ] Definitions, examples, and common misconceptions included
-- [ ] Self-check prompts map to Bloom objectives
-- [ ] Reading level matches audience
+- [ ] Notes Writer → `notes.md`
+- [ ] Modular sections with examples, key takeaways
+- [ ] Mermaid/tables where clarifying
+- [ ] Exam tips + common pitfalls
+- [ ] Self-checks map to Bloom objectives
 
 ## E. Slides
 
-- [ ] PPT Builder writes valid `slides.json`
-- [ ] Theme selected (or default academic theme)
-- [ ] `python scripts/build_pptx.py …` succeeds → `slides.pptx`
-- [ ] On failure: apply error-recovery steps (schema fix → theme fallback → rebuild)
+- [ ] PPT Builder → valid `slides.json` (version in meta)
+- [ ] Theme selected (default `academic-light`)
+- [ ] `python scripts/build_pptx.py … --recover` → `slides.pptx`
+- [ ] On failure: schema fix → theme fallback → minimal deck
 
-## F. Materials
+## F. Materials (all required unless user opts out)
 
-- [ ] Assignments (`assignments.md`) with clear rubrics
-- [ ] Tiered question bank (`question-bank.md`: Easy / Medium / Hard)
-- [ ] Lab exercises (`labs.md`) with setup, steps, expected outcomes
-- [ ] Optional: quizzes, glossary, mind map as requested
+- [ ] `question-bank.md` — Easy / Medium / Hard + Bloom tags
+- [ ] `assignments.md` — rubrics / projects
+- [ ] `labs.md` — labs or practice workshops
+- [ ] `glossary.md`
+- [ ] `mindmap.md`
+- [ ] `revision-sheet.md`
+- [ ] Optional: `quizzes.md` if requested
 
 ## G. QA
 
-- [ ] QA Reviewer runs full consistency suite
-- [ ] Critical issues fixed (re-run responsible agent)
-- [ ] `qa-report.md` written; status → `qa` then `released` when clear
-- [ ] Manifest updated with final paths and status
+- [ ] QA Reviewer full consistency suite
+- [ ] Critical/Major issues fixed via owning agent
+- [ ] `qa-report.md` written
+- [ ] Status → `qa` → `released` on pass
+- [ ] Update `CURRENT`, subject `README.md`, `version_history.md`
 
 ## H. Git
 
-- [ ] `git status` clean of secrets / junk
-- [ ] Stage subject version files + any factory updates
-- [ ] Commit with conventional message (see Main Orchestrator)
-- [ ] Push to remote; confirm GitHub URL / branch
+- [ ] No secrets / junk staged
+- [ ] Commit: `content(<slug>): release vX.Y — <scope>`
+- [ ] Push; confirm GitHub URL
+- [ ] Subject fork branch documented if used
 
-## I. Factory Maintenance (as needed)
+## I. Factory Maintenance
 
 - [ ] Improve agent prompts from recurring QA findings
-- [ ] Extend PPT themes in `build_pptx.py`
-- [ ] Refresh `subjects/_template` when layout evolves
-- [ ] Keep `.gitignore` aligned with generated artifacts
+- [ ] Extend PPT themes when needed
+- [ ] Keep `_template` aligned with contracts
+- [ ] Keep `.gitignore` current
